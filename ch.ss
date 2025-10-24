@@ -1,0 +1,29 @@
+body{
+	font-size: 28px;
+	background-color: #C2D2AF;
+}
+	legend {
+	font-size: 50px;
+}
+p{
+  font-size: 30px;
+}
+fieldset{
+	background-color: white;
+	border-radius: 40px;
+	padding: 50px;
+	width: 65%;
+	margin: 0 auto;
+	box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+	h1{
+		text-align: center;
+		font-size: 70px;
+	}
+h3{
+	margin: auto;
+	font-size: 35px;
+}
+button{
+    align-items: end;
+}
