@@ -24,3 +24,10 @@ h3{
 	margin: auto;
 	font-size: 35px;
 }
+button{
+    align-items: end;
+}
+img
+{
+	align-items: center;
+}
