@@ -20,7 +20,17 @@ fieldset{
 		text-align: center;
 		font-size: 70px;
 	}
-h3{
+h3
+{
 	margin: auto;
 	font-size: 35px;
+}
+      
+.central
+{
+	text-align: center;
+}
+legend
+{
+	background-color: rgb(182, 148, 214);
 }
