@@ -2,8 +2,14 @@ body{
 	font-size: 28px;
 	background-color: #C2D2AF;
 }
-	legend {
+@import url('https://fonts.google.com/specimen/Vend+Sans?categoryFilters=Feeling:%2FExpressive%2FCalm');
+	legend 
+{
+	font-family: Vend-Sans;
 	font-size: 50px;
+	background-color: rgb(182, 148, 214, 0.6);
+	border-radius: 15px;
+	font-weight: bold;
 }
 p{
   font-size: 30px;
@@ -30,10 +36,7 @@ h3
 {
 	text-align: center;
 }
-legend
-{
-	background-color: rgb(182, 148, 214);
-}
+
 .container
 {
 	text-align: center;
