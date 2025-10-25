@@ -52,12 +52,8 @@ body::before {
 h1
 {
   color: rgb(255, 255, 255);
-  background-color: gray;
+  background-color: rgb(128, 128, 128, 0.7);
   border-radius: 15px;
+  font-weight: bold;
 }
-.texto h1
-{
-  color:black ;
-  background-color: gray;
-  border-radius: 15px;
-}
+ 
