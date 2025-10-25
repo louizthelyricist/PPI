@@ -21,31 +21,42 @@ element
 @import url('https://fonts.google.com/specimen/Audiowide?categoryFilters=Feeling:%2FExpressive%2FFuturistic');
 button
 {
-    background-color: rgb(134, 235, 235);
+    background-color: rgba(252, 252, 252, 0.658);
     border-radius: 5px;
     transition: 0.3s;
     padding: 10px 20px;
     font-weight: bold;
     font-family: Audiowide;
     font-size: larger;
+    border-radius: 15px;
 }
 .container {
   display: flex;
   flex-direction: column;         
   gap: 15px;                      
-  align-items: center;            
+  align-items: center; 
+  color: black;           
 }
 .btn {
   display: inline-block;
   padding: 12px 24px;
   background-color: #007bff;
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
-  border-radius: 5px;
-  font-size: 16px;
+  border-radius: 15px;
+  font-size: 1px;
   transition: background 0.3s;
+  
 }
 h1
 {
-  color: white;
+  color: rgb(255, 255, 255);
+  background-color: gray;
+  border-radius: 15px;
+}
+.texto h1
+{
+  color:black ;
+  background-color: gray;
+  border-radius: 15px;
 }
