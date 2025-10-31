@@ -65,17 +65,19 @@ display: flex;
 }
 input[type="submit"]
 {
-background-color: rgba(0, 0, 0, 0.747); /* cor de fundo */
-  color: white;              /* cor do texto */
+ background-color:  #C2D2AF; /* cor de fundo */
+  color: rgb(0, 0, 0);              /* cor do texto */
   border: none;              /* remove bordas padrão */
   padding: 20px 40px;        /* espaçamento interno */
   border-radius: 5px;        /* cantos arredondados */
   cursor:pointer ;           /* muda o cursor ao passar por cima */
-  font-size: 16px;
+  font-family: Vend-Sans;
+  font-size: 18px;
+  
 }
 input[type="radio"]
 {
-cursor: pointer;
+cursor: pointer; 
 }
 label
 {
