@@ -65,21 +65,29 @@ display: flex;
 }
 input[type="submit"]
 {
- background-color:  #C2D2AF; /* cor de fundo */
-  color: rgb(0, 0, 0);              /* cor do texto */
-  border: none;              /* remove bordas padrão */
-  padding: 20px 40px;        /* espaçamento interno */
-  border-radius: 5px;        /* cantos arredondados */
-  cursor:pointer ;           /* muda o cursor ao passar por cima */
+ background-color:  rgb(194, 210, 175, 0.6); 
+  color: rgb(0, 0, 0);              
+  border: none;              
+  padding: 20px 450px;        
+  border-radius: 20px;        
+  cursor:pointer ;           
   font-family: Vend-Sans;
-  font-size: 18px;
-  
+  font-size: 22px;
+  transition: background-color 0.3s ease, transform 0.5s ease;
+}
+input[type="submit"]:hover
+{
+	background-color: rgb(37, 185, 24);
 }
 input[type="radio"]
 {
-cursor: pointer; 
+accent-color: rgb(182, 148, 214, 0.6);
 }
 label
 {
 	cursor: pointer;
+}
+label:hover
+{
+	font-weight: bold;
 }
