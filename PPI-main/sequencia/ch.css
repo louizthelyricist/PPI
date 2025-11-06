@@ -1,6 +1,7 @@
 body{
 	font-size: 28px;
-	background-color: rgb(194, 210, 175);
+	font-family: Vend-Sans;
+	background-color: #C2D2AF;
 }
 @import url('https://fonts.google.com/specimen/Vend+Sans?categoryFilters=Feeling:%2FExpressive%2FCalm');
 	legend 
@@ -52,36 +53,44 @@ h3
 }
 .but
 {
-
-	align-items: end;
+display: flex;
+  flex-direction: column;         
+  gap: 15px;                      
+  align-items: end; 
+  color: black;                             
+  justify-content: center;                
+  background-color: rgba(255, 255, 255,);
+  margin: 0;
+  color: black;
+	
 }
-input[type="submit"] 
+input[type="submit"]
 {
-  border-radius: 15px;
-  padding: 10px 600px;
-  background-color: rgb(194, 210, 175, 0.6);
-  color: rgb(0, 0, 0);
-  display: block;   
-  margin-left: auto;  
-  border: 0px;
-  cursor: pointer;
-  transition: background-color 0.5s ease,
-  transform 0.2s ease;
+ background-color:  rgb(194, 210, 175, 0.6); 
+  color: rgb(0, 0, 0);              
+  border: none;              
+  padding: 20px 450px;        
+  border-radius: 20px;        
+  cursor:pointer ;           
   font-family: Vend-Sans;
-  font-size: 20px;
+  font-size: 22px;
+  transition: background-color 0.4s ease, transform 0.6s ease;
+  display: block;
+  margin: 20px auto;
 }
-input[type="submit"]:hover 
+input[type="submit"]:hover
 {
-  background-color: rgb(113, 211, 113);
+	background-color: rgb(37, 185, 24);
 }
-
 input[type="radio"]
 {
-	accent-color:rgb(182, 148, 214, 0.6);
+accent-color: rgba(255, 0, 0, 0.6);
+}
+label
+{
+	cursor: pointer;
 }
 label:hover
 {
-
-	color: #b694d691;
 	font-weight: bold;
 }
