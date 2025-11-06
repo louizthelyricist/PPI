@@ -1,3 +1,8 @@
+<?php
+$p1 = $_GET ["p1"];
+$p2 = $_GET ["p2"];
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,6 +11,7 @@
     <title>Artes</title>
 </head>
 <body>
+    <form method="get" action="seq5.php">
     <h1 class="h">Artes</h1>
     </div>
     <fieldset>
@@ -131,9 +137,17 @@ Mestre Vitalino, importante ceramista popular brasileiro, na obra reproduzida, r
                 <input type="radio" name="a5" value="0"> e) )s efeitos controversos das políticas afirmativas em território nacional.
             </label>
             <div class="but">
-    <a href="seq5.html" class="but">
+                    <input type="hidden" name="p1" value="<?php echo $p1;?>">
+<input type="hidden" name="p2" value="<?php echo $p2;?>">
+    <input type="hidden" name="a1" value="<?php echo $a1;?>">
+<input type="hidden" name="a2" value="<?php echo $a2;?>">
+    <input type="hidden" name="a3" value="<?php echo $a3;?>">
+<input type="hidden" name="a4" value="<?php echo $a4;?>">
+    <input type="hidden" name="a5" value="<?php echo $a5;?>">
+    <a href="seq5.php" class="but">
         <button>Próximo</button>
             </fieldset>
     </a>
+</form>
 </body>
 </html>
