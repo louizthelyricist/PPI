@@ -85,6 +85,7 @@ input[type="submit"]:hover
 input[type="radio"]
 {
 accent-color: rgba(255, 0, 0, 0.6);
+font-weight: normal;
 }
 label
 {
@@ -93,4 +94,8 @@ label
 label:hover
 {
 	font-weight: bold;
+}
+label:has(input[type="radio"]:checked) 
+{
+  font-weight: bold;
 }
