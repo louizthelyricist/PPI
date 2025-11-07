@@ -74,13 +74,13 @@ input[type="submit"]
   cursor:pointer ;           
   font-family: Vend-Sans;
   font-size: 22px;
-  transition: background-color 0.4s ease, transform 0.6s ease;
+  transition: background-color 0.5s ease, transform 0.6s ease;
   display: block;
   margin: 20px auto;
 }
 input[type="submit"]:hover
 {
-	background-color: rgb(37, 185, 24);
+	background-color: rgba(37, 185, 24, 0.733);
 }
 input[type="radio"]
 {
@@ -98,4 +98,5 @@ label:hover
 label:has(input[type="radio"]:checked) 
 {
   font-weight: bold;
+  color: rgb(0, 0, 255, 0.4);
 }
