@@ -16,7 +16,7 @@ $a2 = $_GET ["a2"];
 $a3 = $_GET ["a3"];
 $a4 = $_GET ["a4"];
 $a5 = $_GET ["a5"];
-    echo "Matéria: Artes<br><br>";
+    echo "<legend>Matéria: Artes</legend>";
     $a1= $_GET ["a1"];
     if ($a1==1)
     {
