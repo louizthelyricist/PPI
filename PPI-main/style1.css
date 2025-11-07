@@ -22,7 +22,7 @@ button
   align-items: center;
   padding-top: 200px; 
   height: 50vh;
-  margin-top: 30px;
+  margin-top: 60px;
 }
  .botoes
 {
@@ -37,7 +37,7 @@ button
 }
 fieldset {
   width: 500px;
-  height: 800px;
+  height: 350px;
   background-color: #555555;
   border: 2px solid rgba(255, 255, 255, 0.10);
   border-radius: 20px;

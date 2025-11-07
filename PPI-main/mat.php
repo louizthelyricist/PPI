@@ -71,7 +71,7 @@ Agora que sabemos quantos litros, tem em 80% de uma banheira de 0,3m³, faremos 
    X               = 240L <br>
 Resultando em: ≈ 89 embalagens  <br> 
 Alternativa correta: D </p>";
-    echo "Acertos: $result";
+    echo "<h1>Acertos: $result</h1>";
 }
 }
 ?>
@@ -135,6 +135,7 @@ h1
 }
 
 </style>
+<input type="submit" value="Rebobinar">
 </fieldset>
 </form>
 </body>
