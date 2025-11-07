@@ -10,11 +10,13 @@
 
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'GET')
+    $q1= $_GET ["q1"];
+$q2 = $_GET ["q2"];
     $result= 0;
 {
     echo "Matéria: Artes<br><br>";
-    $a1= $_GET ["a1"];
-    if ($a1==1)
+    $q1= $_GET ["q1"];
+    if ($q1==1)
     {
         $result++;
         echo "<p class='acerto'>✅ Você acertou a questão 1!</p><br>";
@@ -24,8 +26,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
         echo  "<p class='erro'>❌ Ops, você errou a questão 1. Vamos analisar a resposta certa</p><br>";
     }
     
-    $a2= $_GET ["a2"];
-    if ($a2==1)
+    $q2= $_GET ["q2"];
+    if ($q2==1)
     {
          $result++;
         echo "<p class='acerto'>✅ Você acertou a questão 2!</p><br>";
@@ -34,33 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
     {
         echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa</p><br>";
     }
-    $a3= $_GET ["a3"];
-    if ($a3==1)
-     $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 3!</p><br>";
-    }
-    else 
-    {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 3. Vamos analisar a resposta certa</p><br>";
-    }
-    $a4= $_GET ["a4"];
-    if ($a4==1)
-    $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 4!</p><br>";
-    }
-    else 
-    {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 4. Vamos analisar a resposta certa</p><br>";
-    }
-    $a5= $_GET ["a5"];
-    if ($a5==1)
-    { $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 5!</p><br>";
-    }
-    else 
-    {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 5. Vamos analisar a resposta certa</p><br>";
-    }
+    
     echo "Acertos: $result";
 }
 ?>
