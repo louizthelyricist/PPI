@@ -66,7 +66,7 @@ display: flex;
 }
 input[type="submit"]
 {
- background-color:  rgb(194, 210, 175, 0.6); 
+background-color: rgba(37, 185, 24, 0.479);
   color: rgb(0, 0, 0);              
   border: none;              
   padding: 20px 450px;        
@@ -74,17 +74,19 @@ input[type="submit"]
   cursor:pointer ;           
   font-family: Vend-Sans;
   font-size: 22px;
-  transition: background-color 0.4s ease, transform 0.6s ease;
+  transition: background-color 0.5s ease, transform 0.6s ease;
   display: block;
   margin: 20px auto;
 }
 input[type="submit"]:hover
 {
-	background-color: rgb(37, 185, 24);
+	 background-color:  rgb(194, 210, 175, 0.6); 
+	 transform: scale(1.05);
 }
 input[type="radio"]
 {
 accent-color: rgba(255, 0, 0, 0.6);
+font-weight: normal;
 }
 label
 {
@@ -93,4 +95,8 @@ label
 label:hover
 {
 	font-weight: bold;
+}
+label:has(input[type="radio"]:checked) 
+{
+  font-weight: bold;
 }

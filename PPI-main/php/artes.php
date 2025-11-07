@@ -12,7 +12,12 @@
 if ($_SERVER['REQUEST_METHOD'] == 'GET')
     $result= 0;
 {
-    echo "Matéria: Artes<br><br>";
+	$a1 = $_GET ["a1"];
+$a2 = $_GET ["a2"];
+$a3 = $_GET ["a3"];
+$a4 = $_GET ["a4"];
+$a5 = $_GET ["a5"];
+    echo "<legend>Gabarito</legend>";
     $a1= $_GET ["a1"];
     if ($a1==1)
     {
@@ -77,6 +82,7 @@ body{
     background-color: rgb(182, 148, 214, 0.6);
     border-radius: 15px;
     font-weight: bold;
+    animation: piscarsuave 3s infinite;
 }
 p{
   font-size: 30px;
@@ -89,7 +95,12 @@ fieldset{
     margin: 0 auto;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 }
-
+@keyframes piscarsuave {
+0%   { background-color: rgba(182, 148, 214, 0.6); }
+  50%  { background-color: rgba(255, 200, 0, 0.7); }
+  100% { background-color: rgba(182, 148, 214, 0.6); }
+    
+}
 </style>
 </fieldset>
 </body>
