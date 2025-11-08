@@ -99,7 +99,7 @@ fieldset{
 }
 @keyframes piscarsuave {
 0%   { background-color: rgba(182, 148, 214, 0.6); }
-  50%  { background-color: rgba(255, 200, 0, 0.7); }
+  50%  { background-color: rgba(228, 9, 111, 0.7); }
   100% { background-color: rgba(182, 148, 214, 0.6); }
     
 }
