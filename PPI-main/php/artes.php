@@ -101,8 +101,8 @@ fieldset{
     0%   { background-color: rgba(182, 148, 214, 0.6); }
   25%  { background-color: rgba(228, 9, 111, 0.7); }
   50% {background-color: rgba(228, 9, 38, 0.7); }
-  75% {background-color: rgba(177, 9, 228, 0.7); }
-  100% { background-color: rgba(182, 148, 214, 0.6); }
+  75% {background-color: rgba(177, 82, 206, 0.7); }
+  100% { background-color: rgba(148, 98, 196, 0.6); }
     
 }
 </style>
