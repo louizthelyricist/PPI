@@ -1,11 +1,11 @@
 <?php
-$p1 = $_GET ["p1"];
-$p2 = $_GET ["p2"];
-$a1 = $_GET ["a1"];
-$a2 = $_GET ["a2"];
-$a3 = $_GET ["a3"];
-$a4 = $_GET ["a4"];
-$a5 = $_GET ["a5"];
+session_start();
+$_SESSION ["a1"]= $_GET["a1"]?? null;
+$_SESSION ["a2"]= $_GET["a2"]?? null;
+$_SESSION ["a3"]= $_GET["a3"]?? null;
+$_SESSION ["a4"]= $_GET["a4"]?? null;
+$_SESSION ["a5"]= $_GET["a5"]?? null;
+
 ?>
 
 <!DOCTYPE html>
@@ -16,19 +16,58 @@ $a5 = $_GET ["a5"];
     <title>Química</title>
 </head>
 <body>
-    <form method="get" action="seq5.php">
+    <form method="get" action="gab.php">
     <h1 class="h">Química</h1>
     <fieldset>
         <legend>Questão 1</legend>
+        <p>
+            (Enem 2015) Um grupo de pesquisadores desenvolveu um método simples, barato e eficaz de remoção de petróleo contaminante na água, que utiliza um plástico produzido a partir do líquido da castanha-de-caju (LCC). A composição química do LCC é muito parecida com a do petróleo e suas moléculas, por suas características, interagem formando agregados com o petróleo. Para retirar os agregados da água, os pesquisadores misturam ao LCC nanopartículas magnéticas.
+            Essa técnica considera dois processos de separação de misturas, sendo eles, respectivamente,
+        </p>
+        </div>
+        <label>
+            <input type="radio" name="q1" value="0" required> a) flotação de decantação.<br>
+        </label>
+        <label>
+            <input type="radio" name="q1" value="1" required> b) decomposição e centrifugação.<br>
+        </label>
+        <label>
+            <input type="radio" name="q1" value="0" required> c) floculação e separação magnética.<br>
+        </label>
+        <label>
+            <input type="radio" name="q1" value="0" required> d) destilação fracionada e peneiração.<br>
+        </label>
+        <label>
+            <input type="radio" name="q1" value="0" required> e) dissolução fracionada e magnetização.
+        </label>
+        </fieldset>
+        <fieldset>
+        <legend>Questão 2</legend>
+        <p>
+           Partículas microscópicas existentes na atmosfera funcionam como núcleos de condensação de vapor de água que, sob condições adequadas de temperatura e pressão, propiciam a formação das nuvens e consequentemente das chuvas. No ar atmosférico, tais partículas são formadas pela reação de ácidos (HX) com a base NH3, de forma natural ou antropogênica, dando origem a sais de amônio (NH4X), de acordo com a equação genérica:
+HX (g) + NH3 (g) → NH4X (s)
+          A fixação de moléculas de vapor de água pelos núcleos de condensação ocorre por:
+
+        </p>
+        </div>
+        <label>
+            <input type="radio" name="q2" value="0" required> a) ligações iônicas.<br>
+        </label>
+        <label>
+            <input type="radio" name="q2" value="1" required> b) ligações iônicas.<br>
+        </label>
+        <label>
+            <input type="radio" name="q2" value="0" required> c) interações dipolo-dipolo induzido..<br>
+        </label>
+        <label>
+            <input type="radio" name="q2" value="0" required> d) interações íon-dipolo.<br>
+        </label>
+        <label>
+            <input type="radio" name="q2" value="0" required> e) ligações covalentes.<br>
+        </label>
     </fieldset>
-      <input type="hidden" name="p1" value="<?php echo $p1;?>">
-<input type="hidden" name="p2" value="<?php echo $p2;?>">
-    <input type="hidden" name="a1" value="<?php echo $a1;?>">
-<input type="hidden" name="a2" value="<?php echo $a2;?>">
-    <input type="hidden" name="n3" value="<?php echo $n3;?>">
-<input type="hidden" name="n4" value="<?php echo $n4;?>">
-    <input type="hidden" name="n5" value="<?php echo $n5;?>">
-    <a href="gab.php" class="but"> </a>
+  
+  <button type="submit">Próximo</button>
     </form>
 </body>
 </html>

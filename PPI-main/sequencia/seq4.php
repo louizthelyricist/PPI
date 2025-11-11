@@ -1,3 +1,9 @@
+<?php
+session_start();
+$_SESSION["f1"] = $_GET["f1"] ?? null;
+$_SESSION["f2"] = $_GET["f2"] ?? null;
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,7 +12,7 @@
     <title>Artes</title>
 </head>
 <body>
-    <form method="get" action="php/artes.php">
+    <form method="get" action="seq5.php">
     <h1 class="h">Artes</h1>
     </div>
     <fieldset>
@@ -19,19 +25,19 @@
         </p>
         </div>
         <label>
-            <input type="radio" name="a1" value="0"> a) estabelecer limites entre o corpo e a composição.<br>
+            <input type="radio" name="a1" value="0" > a) estabelecer limites entre o corpo e a composição.<br>
         </label>
         <label>
-            <input type="radio" name="a1" value="1"> b) fazer do corpo um suporte privilegiado de expressão.<br>
+            <input type="radio" name="a1" value="1" > b) fazer do corpo um suporte privilegiado de expressão.<br>
         </label>
         <label>
-            <input type="radio" name="a1" value="0"> c) discutir políticas e ideologias sobre o corpo como arte.<br>
+            <input type="radio" name="a1" value="0" > c) discutir políticas e ideologias sobre o corpo como arte.<br>
         </label>
         <label>
-            <input type="radio" name="a1" value="0"> d) compreender a autonomia do corpo no contexto da obra.<br>
+            <input type="radio" name="a1" value="0" > d) compreender a autonomia do corpo no contexto da obra.<br>
         </label>
         <label>
-            <input type="radio" name="a1" value="0"> e) destacar o corpo do artista em contato com o expectador.<br>
+            <input type="radio" name="a1" value="0" > e) destacar o corpo do artista em contato com o expectador.<br>
         </label>
     </fieldset>
     <fieldset>
@@ -44,19 +50,19 @@
                     <br>
                 </p>
                 <label>
-                <input type="radio" name="a2" value="0"> a) As formas de criticar obras do passado se repetem.<br>
+                <input type="radio" name="a2" value="0" > a) As formas de criticar obras do passado se repetem.<br>
                 </label>
                 <label>
-                    <input type="radio" name="a2" value="0"> b)  A recorrência de temas marca a arte do final do século XX.<br>
+                    <input type="radio" name="a2" value="0" > b)  A recorrência de temas marca a arte do final do século XX.<br>
                 </label>
                 <label>
-                    <input type="radio" name="a2" value="1"> c)  As criações desmistificam os valores estéticos estabelecidos.<br>
+                    <input type="radio" name="a2" value="1" > c)  As criações desmistificam os valores estéticos estabelecidos.<br>
                 </label>
                 <label>
-                    <input type="radio" name="a2" value="0"> d)  O distanciamento temporal permite a transformação dos referenciais estéticos.<br>
+                    <input type="radio" name="a2" value="0" > d)  O distanciamento temporal permite a transformação dos referenciais estéticos.<br>
                 </label>
                 <label>
-                    <input type="radio" name="a2" value="0"> e) O objeto ausente sugere a degradação da forma superando o modelo artístico. 
+                    <input type="radio" name="a2" value="0" > e) O objeto ausente sugere a degradação da forma superando o modelo artístico. 
                 </label>
     </fieldset>
     <fieldset>
@@ -67,19 +73,19 @@
 Mestre Vitalino, importante ceramista popular brasileiro, na obra reproduzida, retrata uma cena típica da cultura nordestina: o horário da refeição. Seus bonecos de barro apresentam características artísticas marcantes, representadas como        </p>
         </div><br>
         <label>
-            <input type="radio" name="a3" value="0"> a) Humanas, com fixação do momento de um gesto.<br>
+            <input type="radio" name="a3" value="0" > a) Humanas, com fixação do momento de um gesto.<br>
         </label>
         <label>
-            <input type="radio" name="a3" value="0"> b) Abstratas, com estilização e redução da figura.<br>
+            <input type="radio" name="a3" value="0" > b) Abstratas, com estilização e redução da figura.<br>
         </label>
         <label>
-            <input type="radio" name="a3" value="1"> c) Figurativas, com representação da realidade.<br>
+            <input type="radio" name="a3" value="1" > c) Figurativas, com representação da realidade.<br>
         </label>
         <label>
-            <input type="radio" name="a3" value="0"> d) Religiosas, com alongamento das formas divinas.<br>
+            <input type="radio" name="a3" value="0" > d) Religiosas, com alongamento das formas divinas.<br>
         </label>
         <label>
-            <input type="radio" name="a3" value="0"> e) Dramáticas, com predominância de linhas curvas. 
+            <input type="radio" name="a3" value="0" > e) Dramáticas, com predominância de linhas curvas. 
         </label>
     </fieldset>
     <fieldset>
@@ -92,19 +98,19 @@ Mestre Vitalino, importante ceramista popular brasileiro, na obra reproduzida, r
             <p>A provocação desse grupo gera um debate em torno da obra de arte pelo(a):</p>
             </div>
             <label>
-                <input type="radio" name="a4" value="0"> a) Recusa a crenças, convicções, valores morais, estéticos e políticos na história moderna.<br>
+                <input type="radio" name="a4" value="0" > a) Recusa a crenças, convicções, valores morais, estéticos e políticos na história moderna.<br>
             </label>
             <label>
-                <input type="radio" name="a4" value="1"> b) Frutífero arsenal de materiais e formas que se relacionam com os objetos construídos.<br>
+                <input type="radio" name="a4" value="1" > b) Frutífero arsenal de materiais e formas que se relacionam com os objetos construídos.<br>
             </label>
             <label>
-                <input type="radio" name="a4" value="0"> c) Economia e problemas financeiros gerados pela recessão que tiveram grande impacto no mercado.<br>
+                <input type="radio" name="a4" value="0" > c) Economia e problemas financeiros gerados pela recessão que tiveram grande impacto no mercado.<br>
             </label>
             <Label>
-                <input type="radio" name="a4" value="0"> d) Influência desse grupo junto aos estilos pós-modernos que surgiram nos anos 1990.<br>
+                <input type="radio" name="a4" value="0" > d) Influência desse grupo junto aos estilos pós-modernos que surgiram nos anos 1990.<br>
             </Label>
             <label>
-                <input type="radio" name="a4" value="0"> e) interesse em produtos indesejáveis que revela uma consciência sustentável no mercado. 
+                <input type="radio" name="a4" value="0" > e) interesse em produtos indesejáveis que revela uma consciência sustentável no mercado. 
             </label>
             </fieldset>
         <fieldset>
@@ -117,22 +123,22 @@ Mestre Vitalino, importante ceramista popular brasileiro, na obra reproduzida, r
                 <p>As telas a seguir foram pintadas por Éder Oliveira entre 2016 e 2018 e fazem parte de um conjunto de obras denominado "Pixel". O nome remete à técnica de "imagem pixelada" utilizada comumente em meios de comunicação para desfigurar o rosto de criminosos. As telas foram inspiradas em imagens reais de jovens negros.</p>
                 </div>
             <label>
-                <input type="radio" name="a5" value="0"> a) A demanda por ampliação dos direitos políticos das populações periféricas.<br>
+                <input type="radio" name="a5" value="0" > a) A demanda por ampliação dos direitos políticos das populações periféricas.<br>
             </label>
             <label>
-                <input type="radio" name="a5" value="0"> b) Os maus tratos aplicados contra a população carcerária.<br>
+                <input type="radio" name="a5" value="0" > b) Os maus tratos aplicados contra a população carcerária.<br>
             </label>
             <label>
-                <input type="radio" name="a5" value="0"> c) A violação dos direitos humanos das vítimas de violência doméstica.<br>
+                <input type="radio" name="a5" value="0" > c) A violação dos direitos humanos das vítimas de violência doméstica.<br>
+            </label
+            <label>
+                <input type="radio" name="a5" value="1" > d) O vínculo reforçado pela mídia entre o crime e um estereótipo de pessoas.<br>
             </label>
             <label>
-                <input type="radio" name="a5" value="1"> d) O vínculo reforçado pela mídia entre o crime e um estereótipo de pessoas.<br>
-            </label>
-            <label>
-                <input type="radio" name="a5" value="0"> e) Os efeitos controversos das políticas afirmativas em território nacional.
+                <input type="radio" name="a5" value="0" > e) Os efeitos controversos das políticas afirmativas em território nacional.
             </label>
             <div class="but">
-    <input type="submit" value="Enviar">
+  <button type="submit">Próximo</button>
             </div>
             </fieldset>
 </form>

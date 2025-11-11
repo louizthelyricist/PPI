@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -70,9 +73,7 @@ Elena é um filme sobre a irmã que parte e sobre a irmã que fica. É um filme 
           </label>
      </fieldset>
 
-    <a href="seq2.php">
-        <button>Próximo</button>
-    </a>
+    <button type="submit">Próximo</button>
 </form>
     </body>
 </html>
