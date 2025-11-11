@@ -18,6 +18,7 @@ $a3 = $_GET ["a3"];
 $a4 = $_GET ["a4"];
 $a5 = $_GET ["a5"];
     echo "<legend>Gabarito</legend>";
+}
     $a1= $_GET ["a1"];
     if ($a1==1)
     {
@@ -40,7 +41,8 @@ $a5 = $_GET ["a5"];
         echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa</p><br>";
     }
     $a3= $_GET ["a3"];
-    if ($a3==1)
+    if ($a3==1){
+
      $result++;
         echo "<p class='acerto'>✅ Você acertou a questão 3!</p><br>";
     }
@@ -50,6 +52,7 @@ $a5 = $_GET ["a5"];
     }
     $a4= $_GET ["a4"];
     if ($a4==1)
+    {
     $result++;
         echo "<p class='acerto'>✅ Você acertou a questão 4!</p><br>";
     }
@@ -67,7 +70,6 @@ $a5 = $_GET ["a5"];
         echo  "<p class='erro'>❌ Ops, você errou a questão 5. Vamos analisar a resposta certa</p><br>";
     }
     echo "Acertos: $result";
-}
 ?>
 <style>
 body{
@@ -96,9 +98,11 @@ fieldset{
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 }
 @keyframes piscarsuave {
-0%   { background-color: rgba(182, 148, 214, 0.6); }
-  50%  { background-color: rgba(255, 200, 0, 0.7); }
-  100% { background-color: rgba(182, 148, 214, 0.6); }
+    0%   { background-color: rgba(182, 148, 214, 0.6); }
+  25%  { background-color: rgba(228, 9, 111, 0.7); }
+  50% {background-color: rgba(228, 9, 38, 0.7); }
+  75% {background-color: rgba(177, 82, 206, 0.7); }
+  100% { background-color: rgba(148, 98, 196, 0.6); }
     
 }
 </style>
