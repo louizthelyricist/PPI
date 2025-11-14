@@ -19,15 +19,26 @@ button
 }
 .container {
   display: flex;
-  flex-direction: column;         
-  gap: 15px;                      
-  align-items: center; 
-  color: black;     
-  height: 100vh;                               
-  justify-content: center;                
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-start;
+  
+  padding-top: 300px; 
+  height: 100vh;
+  
   background-color: rgba(255, 255, 255,);
   margin: 0;
   color: black;
+}
+.botoes
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 0;
+  width: 100%;
+  max-width: 700px;
 }
 body::before {
   content: "";
@@ -55,4 +66,13 @@ h1
   background-color: rgb(128, 128, 128, 0.7);
   border-radius: 15px;
   font-weight: bold;
+}
+
+.botoes a {
+  width: 100%;
+  display: block;
+}
+
+.botoes button {
+  width: 100%;
 }
