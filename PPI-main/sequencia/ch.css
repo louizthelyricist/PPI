@@ -14,6 +14,7 @@ body{
 }
 p{
   font-size: 30px;
+  font-weight: bold;
 }
 fieldset{
 	background-color: white;
@@ -39,6 +40,7 @@ h1
 {
 	text-align: center;
 }
+
 
 .container
 {
@@ -99,6 +101,7 @@ label
 label:hover
 {
 	font-weight: bold;
+	font-style: italic;
 }
 label:has(input[type="radio"]:checked) 
 {

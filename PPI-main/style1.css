@@ -3,6 +3,7 @@ body
   margin: 0;
   height: 100vh;
   overflow: hidden;
+  position: relative;
 }
 
 @import url('https://fonts.google.com/specimen/Audiowide?categoryFilters=Feeling:%2FExpressive%2FFuturistic');
@@ -24,7 +25,7 @@ button
   align-items: center;
   justify-content: flex-start;
   
-  padding-top: 300px; 
+  padding-top: 350px; 
   height: 100vh;
   
   background-color: rgba(255, 255, 255,);
@@ -44,10 +45,19 @@ body::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: url("enem.png") center/cover no-repeat;
   opacity: 1;
   z-index: -1; 
+  background-color: black;
   filter: brightness(0.75);
+}
+fieldset {
+  position: relative;
+  z-index: 10;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  text-align: center;    
 }
 .btn {
   display: inline-block;
@@ -62,9 +72,9 @@ body::before {
 }
 h1
 {
-  color: rgb(255, 255, 255);
-  background-color: rgb(128, 128, 128, 0.7);
-  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
   font-weight: bold;
 }
 
@@ -75,4 +85,8 @@ h1
 
 .botoes button {
   width: 100%;
+}
+button:hover
+{
+  cursor: pointer;
 }
