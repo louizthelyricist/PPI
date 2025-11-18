@@ -45,6 +45,9 @@ h1
 .container
 {
 	text-align: center;
+	display: block;
+	margin: 0;
+
 }
 @import url('https://fonts.google.com/specimen/Vend+Sans?categoryFilters=Feeling:%2FExpressive%2FCalm');
 .h
@@ -91,7 +94,7 @@ input[type="submit"]:hover
 }
 input[type="radio"]
 {
-accent-color: rgba(255, 0, 0, 0.6);
+accent-color: rgba(255, 0, 179, 0.6);
 font-weight: normal;
 }
 label
@@ -106,4 +109,13 @@ label:hover
 label:has(input[type="radio"]:checked) 
 {
   font-weight: bold;
+}
+.centro
+{
+  width:550px;
+  height: auto;
+}
+p
+{
+	text-align: left;
 }

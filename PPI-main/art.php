@@ -16,10 +16,11 @@ $p2= $_GET ["p2"];
     <fieldset>
         <legend>Questão 1</legend>
         
-        <p class="central"> <img src="sequencia/a1.jpg" alt="imagem central"></p>
+        <p class="central"> <img src="sequencia/a1.jpg" alt="imagem central" class="centro"></p>
         <div class="container">
         <p>
-            A body art põe o corpo tão em evidência e o submete a experimentações tão variadas, que sua influência estende-se aos dias de hoje. <br>Se na arte atual as possibilidades de investigação do corpo parecem ilimitadas - pode-se escolher entre representar, apresentar, ou ainda apenas evocar o corpo - isso ocorre graças ao legado dos artistas pioneiros.<br>
+
+            Uerj (2024) - O quadro de Dalí, ao contrário do que muitos pensam, é bastante pequeno (24 x 33 cm). No entanto, não deixa de exercer fascínio no Museu de Arte Moderna de Nova York (MoMA). Segundo o próprio pintor, duas foram as suas fontes de inspiração para a obra: os queijos Camembert e a teoria da relatividade de Einstein. <br>
         </p>
         </div>
         <label>
@@ -113,9 +114,6 @@ Mestre Vitalino, importante ceramista popular brasileiro, na obra reproduzida, r
             </fieldset>
         <fieldset>
             <legend>Questão 5</legend>
-            <p><div class="container">
-                As telas a seguir foram pintadas por Éder Oliveira entre 2016 e 2018 e fazem parte de um conjunto de obras denominado "Pixel". O nome remete à técnica de "imagem pixelada" utilizada comumente em meios de comunicação para desfigurar o rosto de criminosos. As telas foram inspiradas em imagens reais de jovens negros.</p>
-            </div>
                 <p class="central"> <img src="sequencia/a5.png" alt="imagem central"></p>
             <div class="container">
                 <p>As telas a seguir foram pintadas por Éder Oliveira entre 2016 e 2018 e fazem parte de um conjunto de obras denominado "Pixel". O nome remete à técnica de "imagem pixelada" utilizada comumente em meios de comunicação para desfigurar o rosto de criminosos. As telas foram inspiradas em imagens reais de jovens negros.</p>
