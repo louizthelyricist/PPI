@@ -9,10 +9,11 @@
     <fieldset>
 
 <?php
+if ($_SERVER['REQUEST_METHOD'] == 'GET')
     $q1= $_GET ["q1"];
-    $q2 = $_GET ["q2"];
+$q2 = $_GET ["q2"];
     $result= 0;
-
+{
     echo "<legend> Gabarito <br></legend>";
     $q1= $_GET ["q1"];
     if ($q1==1)

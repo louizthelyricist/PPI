@@ -6,7 +6,6 @@
     <link rel="stylesheet" action="css">
 </head>
 <body>
-    <form method="get" action="páginainical.html">
     <fieldset>
 
 <?php
@@ -126,13 +125,29 @@ fieldset{
   100% { background-color: rgba(148, 98, 196, 0.6); }
     
 }
-
+input[type="submit"]
+{
+background-color: rgba(37, 185, 24, 0.479);
+  color: rgb(0, 0, 0);              
+  border: none;              
+  padding: 20px 450px;        
+  border-radius: 20px;        
+  cursor:pointer ;           
+  font-family: Vend-Sans;
+  font-size: 22px;
+  transition: background-color 0.5s ease, transform 0.6s ease;
+  display: block;
+  margin: 20px auto;
+}
+input[type="submit"]:hover
+{
+	 background-color:  rgb(194, 210, 175, 0.6); 
+	 transform: scale(1.05);
+}
 </style>
-<div class="botoes">
-<a href="qui.html">
-    <button>Rebobinar</button>
-</a>
-</div>
+
+<input type="submit" value="Rebobinar">
+
 </fieldset>
 </body>
 </html>
