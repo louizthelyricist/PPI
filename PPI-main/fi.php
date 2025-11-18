@@ -1,3 +1,7 @@
+<?php
+$q1= $_GET ["q1"];
+$q2= $_GET ["q2"];
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,9 +10,12 @@
     <title>Física</title>
 </head>
 <body>
+    <form method="get" action="php/qui.php">
     <h1 class="h">Física</h1>
     <fieldset>
         <legend>Questão 1</legend>
+        <input type="hidden" name="q1" value="<?php $q1= $_GET ["q1"]; ?>">
+        <input type="hidden" name="q2" value="<?php $q2= $_GET ["q2"]; ?>">
         <input type="submit" value="Enviar">
     </fieldset>
 </body>

@@ -94,7 +94,7 @@ $a5 = $_GET ["a5"];
 <style>
 body{
     font-size: 28px;
-    background-color: #cfafd2ff;
+    background-color: #b6cbe7ff;
 }
 @import url('https://fonts.google.com/specimen/Vend+Sans?categoryFilters=Feeling:%2FExpressive%2FCalm');
     legend 
