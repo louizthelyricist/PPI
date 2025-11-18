@@ -11,6 +11,26 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'GET')
     $result= 0;
+$p1= $_GET ["p1"];
+    if ($p1==1)
+     {
+        $result++;
+        echo "<p class='acerto'>✅ Você acertou a questão 1!</p><br>";
+    }
+    else 
+    {
+        echo  "<p class='erro'>❌ Ops, você errou a questão 1. Vamos analisar a resposta certa</p><br>";
+    }
+  $p2= $_GET ["p2"];
+    if ($p2==1)
+    {
+        $result++;
+        echo "<p class='acerto'>✅ Você acertou a questão 2!</p><br>";
+    }
+    else 
+    {
+        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa</p><br>";
+    }
 {
 	$a1 = $_GET ["a1"];
 $a2 = $_GET ["a2"];

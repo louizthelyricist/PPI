@@ -1,3 +1,7 @@
+<?php
+$p1= $_GET ["p1"];
+$p2= $_GET ["p2"];
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -132,6 +136,8 @@ Mestre Vitalino, importante ceramista popular brasileiro, na obra reproduzida, r
                 <input type="radio" name="a5" value="0"> e) Os efeitos controversos das políticas afirmativas em território nacional.
             </label>
             <div class="but">
+                 <input type="hidden" name="p1" value="<?php $p1= $_GET ["p1"]; ?>">
+                  <input type="hidden" name="p2" value="<?php $p2= $_GET ["p2"]; ?>">
     <input type="submit" value="Enviar">
             </div>
             </fieldset>
