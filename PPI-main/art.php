@@ -10,7 +10,7 @@ $p2= $_GET ["p2"];
     <title>Artes</title>
 </head>
 <body>
-    <form method="get" action="php/artes.php">
+    <form method="get" action="artes.php">
     <h1 class="h">Artes</h1>
     </div>
     <fieldset>
@@ -27,13 +27,13 @@ $p2= $_GET ["p2"];
             <input type="radio" name="a1" value="0"> a) estabelecer limites entre o corpo e a composição.<br>
         </label>
         <label>
-            <input type="radio" name="a1" value="1"> b) fazer do corpo um suporte privilegiado de expressão.<br>
+            <input type="radio" name="a1" value="0"> b) fazer do corpo um suporte privilegiado de expressão.<br>
         </label>
         <label>
             <input type="radio" name="a1" value="0"> c) discutir políticas e ideologias sobre o corpo como arte.<br>
         </label>
         <label>
-            <input type="radio" name="a1" value="0"> d) compreender a autonomia do corpo no contexto da obra.<br>
+            <input type="radio" name="a1" value="1"> d) compreender a autonomia do corpo no contexto da obra.<br>
         </label>
         <label>
             <input type="radio" name="a1" value="0"> e) destacar o corpo do artista em contato com o expectador.<br>
@@ -72,13 +72,13 @@ $p2= $_GET ["p2"];
         <p>
 Enem (2021) - Produzida em 1919, a obra O crítico de arte, de Hausmann, utiliza procedimentos de composição que revelam a: </div><br>
         <label>
-            <input type="radio" name="a3" value="0"> a) Visão satírica do artista em relação às convenções da arte burguesa.<br>
+            <input type="radio" name="a3" value="1"> a) Visão satírica do artista em relação às convenções da arte burguesa.<br>
         </label>
         <label>
             <input type="radio" name="a3" value="0"> b) Necessidade de reconhecimento social de uma nova estética.<br>
         </label>
         <label>
-            <input type="radio" name="a3" value="1"> c) Valorização da vanguarda artística pelo mercado de arte.<br>
+            <input type="radio" name="a3" value="0"> c) Valorização da vanguarda artística pelo mercado de arte.<br>
         </label>
         <label>
             <input type="radio" name="a3" value="0"> d) Beleza da arte em meio às turbulências do pós-guerra.<br>

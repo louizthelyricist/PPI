@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" action="css">
+    <link rel="stylesheet" href="ch.css">
 </head>
 <body>
-    <fieldset>
-
+    <form method="get" action="páginainicial.html">
+<fieldset>
 <?php
+echo "Português:";
 if ($_SERVER['REQUEST_METHOD'] == 'GET')
     $result= 0;
 $p1= $_GET ["p1"];
@@ -37,7 +38,8 @@ $a2 = $_GET ["a2"];
 $a3 = $_GET ["a3"];
 $a4 = $_GET ["a4"];
 $a5 = $_GET ["a5"];
-    echo "<legend>Gabarito</legend>";
+echo "<legend>Gabarito</legend>";
+echo "<p> Artes:</p>";
 }
     $a1= $_GET ["a1"];
     if ($a1==1)
@@ -145,9 +147,9 @@ input[type="submit"]:hover
 	 transform: scale(1.05);
 }
 </style>
-
 <input type="submit" value="Rebobinar">
 
 </fieldset>
+</form>
 </body>
 </html>
