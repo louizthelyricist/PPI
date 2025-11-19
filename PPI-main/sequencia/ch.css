@@ -11,6 +11,7 @@ body{
 	background-color: rgb(182, 148, 214, 0.6);
 	border-radius: 15px;
 	font-weight: bold;
+	margin-bottom: 25px
 }
 p{
   font-size: 25px;
@@ -23,7 +24,7 @@ fieldset{
 	width: 65%;
 	margin: 0 auto;
 	box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-	max-height: 600px;
+
 }
 
 h3
