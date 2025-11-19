@@ -67,24 +67,24 @@ $p2= $_GET ["p2"];
     <fieldset>
         <legend>Questão 3</legend>
         <p class="central"> <img src="sequencia/a3.png" alt="imagem central"></p>
+        <h4> HAUSMANN, R. O crítico de arte. Litografia e fotocolagem em papel, 32 cm x 25,5 cm. Tate Collection, Londres, 1919. Disponível em: https://medium.com. Acesso em: 19 jun. 2019.</h4>
         <div class="container">
         <p>
-Mestre Vitalino, importante ceramista popular brasileiro, na obra reproduzida, retrata uma cena típica da cultura nordestina: o horário da refeição. Seus bonecos de barro apresentam características artísticas marcantes, representadas como        </p>
-        </div><br>
+Enem (2021) - Produzida em 1919, a obra O crítico de arte, de Hausmann, utiliza procedimentos de composição que revelam a: </div><br>
         <label>
-            <input type="radio" name="a3" value="0"> a) Humanas, com fixação do momento de um gesto.<br>
+            <input type="radio" name="a3" value="0"> a) Visão satírica do artista em relação às convenções da arte burguesa.<br>
         </label>
         <label>
-            <input type="radio" name="a3" value="0"> b) Abstratas, com estilização e redução da figura.<br>
+            <input type="radio" name="a3" value="0"> b) Necessidade de reconhecimento social de uma nova estética.<br>
         </label>
         <label>
-            <input type="radio" name="a3" value="1"> c) Figurativas, com representação da realidade.<br>
+            <input type="radio" name="a3" value="1"> c) Valorização da vanguarda artística pelo mercado de arte.<br>
         </label>
         <label>
-            <input type="radio" name="a3" value="0"> d) Religiosas, com alongamento das formas divinas.<br>
+            <input type="radio" name="a3" value="0"> d) Beleza da arte em meio às turbulências do pós-guerra.<br>
         </label>
         <label>
-            <input type="radio" name="a3" value="0"> e) Dramáticas, com predominância de linhas curvas. 
+            <input type="radio" name="a3" value="0"> e) Fragilidade da formação acadêmica dos novos artistas.. 
         </label>
     </fieldset>
     <fieldset>
