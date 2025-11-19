@@ -13,7 +13,7 @@ body{
 	font-weight: bold;
 }
 p{
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
 }
 fieldset{
@@ -23,6 +23,7 @@ fieldset{
 	width: 65%;
 	margin: 0 auto;
 	box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+	max-height: 600px;
 }
 
 h3
@@ -118,4 +119,8 @@ label:has(input[type="radio"]:checked)
 p
 {
 	text-align: left;
+}
+.q2
+{
+	text-align: center;
 }
