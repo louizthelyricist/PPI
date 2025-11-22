@@ -97,10 +97,10 @@ Enem (2021) - Produzida em 1919, a obra O crítico de arte, de Hausmann, utiliza
             <p>A provocação desse grupo gera um debate em torno da obra de arte pelo(a):</p>
             </div>
             <label>
-                <input type="radio" name="a4" value="0"> a) Recusa a crenças, convicções, valores morais, estéticos e políticos na história moderna.<br>
+                <input type="radio" name="a4" value="1"> a) Recusa a crenças, convicções, valores morais, estéticos e políticos na história moderna.<br>
             </label>
             <label>
-                <input type="radio" name="a4" value="1"> b) Frutífero arsenal de materiais e formas que se relacionam com os objetos construídos.<br>
+                <input type="radio" name="a4" value="0"> b) Frutífero arsenal de materiais e formas que se relacionam com os objetos construídos.<br>
             </label>
             <label>
                 <input type="radio" name="a4" value="0"> c) Economia e problemas financeiros gerados pela recessão que tiveram grande impacto no mercado.<br>
@@ -134,8 +134,8 @@ Enem (2021) - Produzida em 1919, a obra O crítico de arte, de Hausmann, utiliza
                 <input type="radio" name="a5" value="0"> e) Os efeitos controversos das políticas afirmativas em território nacional.
             </label>
             <div class="but">
-                 <input type="hidden" name="p1" value="<?php $p1= $_GET ["p1"]; ?>">
-                  <input type="hidden" name="p2" value="<?php $p2= $_GET ["p2"]; ?>">
+        <input type="hidden" name="p1" value="<?php echo $_GET['p1']; ?>">
+        <input type="hidden" name="p2" value="<?php echo $_GET['p2']; ?>">
     <input type="submit" value="Enviar">
             </div>
             </fieldset>

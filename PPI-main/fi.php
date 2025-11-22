@@ -14,8 +14,8 @@ $q2= $_GET ["q2"];
     <h1 class="h">Física</h1>
     <fieldset>
         <legend>Questão 1</legend>
-        <input type="hidden" name="q1" value="<?php $q1= $_GET ["q1"]; ?>">
-        <input type="hidden" name="q2" value="<?php $q2= $_GET ["q2"]; ?>">
+        <input type="hidden" name="q1" value="<?php echo $_GET['q1']; ?>">
+        <input type="hidden" name="q2" value="<?php echo $_GET['q2']; ?>">
         <input type="submit" value="Enviar">
     </fieldset>
 </body>
