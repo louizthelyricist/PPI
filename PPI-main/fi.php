@@ -10,7 +10,7 @@ $q2= $_GET ["q2"];
     <title>Física</title>
 </head>
 <body>
-    <form method="get" action="php/qui.php">
+    <form method="get" action="qui.php">
     <h1 class="h">Física</h1>
     <fieldset>
         <legend>Questão 1</legend>
