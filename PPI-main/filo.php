@@ -34,6 +34,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
     {
         echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa</p><br>";
     }
+     $h3= $_GET ["h3"];
+    if ($h3==1)
+    {
+        $result++;
+        echo "<p class='acerto'>✅ Você acertou a questão 2!</p><br>";
+    }
+    else 
+    {
+        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa</p><br>";
+    }
     
     echo "Acertos: $result";
 }
