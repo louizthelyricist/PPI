@@ -28,14 +28,10 @@ button
   padding-top: 200px; 
   height: 50vh;
   
-  background-color: rgba(255, 255, 255,);
+  background-color: rgba(255, 255, 255,0);
   color: black;
 }
-padding: 12px 24px;
-  background-color: #007bff;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  bo.botoes
+ .botoes
 {
   display: flex;
   flex-direction: column;
@@ -48,14 +44,16 @@ padding: 12px 24px;
   width: 400px;
 }
 body::before {
-  content: "";
+
   position: absolute;
   inset: 0;
   z-index: -1; 
-  background-color: #555570;
+  background-color: #555550;
   filter: brightness(0.85);
 }
 fieldset {
+  width: 500px;
+  height: 800px;
   background-color: #195952;
   border: 2px solid rgba(255, 255, 255, 0.10);
   border-radius: 20px;
@@ -91,8 +89,7 @@ h1
   display: block;
 }
 
-.botoes button 
-{
+.botoes button {
   width: 100%;
   display: flex;
   justify-content: center;
