@@ -22,7 +22,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 1. Vamos analisar a resposta certa</p><br>";
+        echo  "<p class='erro'>❌ Ops, você errou a questão 1. Vamos analisar a resposta certa. <br> <br>
+        O valor do uber se concentra em 3 variáveis: F (taxa fixa); T (tempo da corrida) e D (distância percorrida). <br>
+O exercício contém 3 valores associados às variáveis: $2,00 como taxa fixa; $0,40 por minuto de viagem e $1,40 por quilômetro rodado.
+Porém, somente 2 desses valores dependem das variáveis: o tempo e a distância. Já a taxa fixa já é dada na sua totalidade. <br>
+Montando a equação, ficaria:<br>
+V= 2,00 + 0,40T + 1,40D <br>
+Alternativa correta: B </p>";
     }
      $m2= $_GET ["m2"];
     if ($m2==1)
@@ -32,10 +38,41 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa</p><br>";
+        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa. <br> <br>
+        A questão apresenta a informação de que de possui x funcionários, um deles sendo o gerente. Também destaca os salários, dessa maneira: <br>
+Funcionários x: 2 diárias de R$80,00 por semana; <br>
+Salário do gerente por semana: R$1000,00. <br>
+A questão pergunta quanto a empresa terá que pagar seus funcionários em 1 semana. <br>
+Sabemos que todos recebem R$160,00 por semana. <br>
+O gerente, ao todo, ganha R$1000,00, porém contando com as suas diárias. Ou seja, ele ganha R$840,00 mais R$160 das suas diárias. <br>
+O valor total de que a empresa os paga em uma semana se dá pela seguinte fórmula:  <br>
+Y= 160x + 840. <br> 
+Alternativa correta: D. <br></p>";
     }
-    
+     $m3= $_GET ["m3"];
+    if ($m3==1)
+    {
+        $result++;
+        echo "<p class='acerto'>✅ Você acertou a questão 3!</p><br>";
+    }
+    else 
+    {
+        echo  "<p class='erro'>❌ Ops, você errou a questão 3. Vamos analisar a resposta certa<br><br>
+        Lembrando da conversão de unidades: 1m³=1000L <br>
+Faremos uma regra de três, para saber quantos litros são necessários para enchermos uma banheira de 0,3m³ <br>
+1000L = 1m³ <br>
+  X      = 0,3m³ <br>
+Resultando em: X = 300L <br>
+O enunciado nos mostra que não podemos utilizar 100% da banheira, mas sim, 80%. Teremos de resolver com porcentagem. <br>
+Podemos considerar 80% como 80/100= 0,8. <br>
+300L*0,8 = 240L <br>
+Agora que sabemos quantos litros, tem em 80% de uma banheira de 0,3m³, faremos uma regra de três para descobrir quantos pacotes serão necessários para encher esta banheira.  <br>
+1 Embalagem = 2,7L <br>
+   X               = 240L <br>
+Resultando em: ≈ 89 embalagens  <br> 
+Alternativa correta: D </p>";
     echo "Acertos: $result";
+}
 }
 ?>
 <style>

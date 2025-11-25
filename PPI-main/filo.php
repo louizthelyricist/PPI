@@ -38,21 +38,31 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
     if ($h3==1)
     {
         $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 2!</p><br>";
+        echo "<p class='acerto'>✅ Você acertou a questão 3!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa</p><br>";
+        echo  "<p class='erro'>❌ Ops, você errou a questão 3. Vamos analisar a resposta certa</p><br>";
     }
      $h4= $_GET ["h4"];
     if ($h4==1)
     {
         $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 2!</p><br>";
+        echo "<p class='acerto'>✅ Você acertou a questão 4!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa</p><br>";
+        echo  "<p class='erro'>❌ Ops, você errou a questão 4. Vamos analisar a resposta certa</p><br>";
+    }
+     $h5= $_GET ["h5"];
+    if ($h5==1)
+    {
+        $result++;
+        echo "<p class='acerto'>✅ Você acertou a questão 5!</p><br>";
+    }
+    else 
+    {
+        echo  "<p class='erro'>❌ Ops, você errou a questão 5. Vamos analisar a resposta certa</p><br>";
     }
     
     echo "Acertos: $result";

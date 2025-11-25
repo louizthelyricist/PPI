@@ -22,7 +22,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 1. Vamos analisar a resposta certa</p><br>";
+        echo  "<p class='erro'>❌ Ops, você errou a questão 1. Vamos analisar a resposta certa. <br><br>
+        Um dos métodos de misturas é de floculação. Ele é bom nessas circunstâncias pois ao misturar LCC, que possui uma composição muito parecida com o petróleo, com água, se formam “flocos”. Nenhum dos dois se dissolve, mas sim se juntam, facilitando a remoção final somente dada pelo próximo método de separação:. <br>
+Separação magnética, podendo ser utilizada para “atrair” esses flocos (o petróleo principalmente) com um imã pois os pesquisadores misturaram ao LCC nanopartículas magnéticas. Removendo então o petróleo da água. <br></p>";
+    }
+    
     }
 $q2= $_GET ["q2"];
     if ($q2==1)
@@ -32,10 +36,18 @@ $q2= $_GET ["q2"];
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa</p><br>";
+        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa.<br> <br></p>";
     }
-    
-    echo "Acertos: $result";
+        $q3= $_GET ["q3"];
+    if ($q3==1)
+    {
+         $result++;
+        echo "<p class='acerto'>✅ Você acertou a questão 3!</p><br>";
+    }
+    else 
+    {
+        echo  "<p class='erro'>❌ Ops, você errou a questão 3. Vamos analisar a resposta certa.<br> <br></p>";
+        echo "Acertos: $result";
 }
 ?>
 <style>

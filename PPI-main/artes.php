@@ -30,7 +30,9 @@ $p1= $_GET ["p1"];
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa</p><br>";
+        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa. <br><br>
+        Ao abordar a história e as lembranças da avó, o uso da locução “antes de” representa passado, mudança. O lembrete de alguém que já não vive da mesma forma e não lembra de quase nada, mas ainda sim ninguém a esqueceu. Não é somente uma comparação de lembranças, ela ressalta memórias que redefiniram todo seu presente. <br>
+        Alternativa correta: C) Ressalta fatos que ressignificam o momento presente. <br> </p>";
     }
 {
 	$a1 = $_GET ["a1"];
