@@ -1,9 +1,7 @@
 body
 {
   margin: 0;
-  height: 100vh;
-  overflow: hidden;
-  position: relative;
+  background-color: #5f5f55;
 }
 
 @import url('https://fonts.google.com/specimen/Audiowide?categoryFilters=Feeling:%2FExpressive%2FFuturistic');
@@ -14,22 +12,16 @@ button
     transition: 0.3s;
     padding: 10px 20px;
     font-weight: bold;
-    font-family: Audiowide;
     font-size: larger;
     border-radius: 12px;
 }
 .container {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 80px;
   align-items: center;
-  justify-content: flex-start;
-  
   padding-top: 200px; 
   height: 50vh;
-  
-  background-color: rgba(255, 255, 255,0);
-  color: black;
 }
  .botoes
 {
@@ -40,21 +32,12 @@ button
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin: 0;
-  width: 400px;
-}
-body::before {
-
-  position: absolute;
-  inset: 0;
-  z-index: -1; 
-  background-color: #555550;
-  filter: brightness(0.85);
+  width: 450px;
 }
 fieldset {
   width: 500px;
   height: 800px;
-  background-color: #195952;
+  background-color: #555555;
   border: 2px solid rgba(255, 255, 255, 0.10);
   border-radius: 20px;
   text-align: center; 
@@ -71,29 +54,21 @@ fieldset {
 }
 h1
 {  
-  width: 280px;
-  height: 100px;
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
-  border-radius: 10px;
-  font-weight: bold;
+  width: 500px;
+  height: 50px;
+  background-color: white;
+  border-radius: 20px;
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.75); 
 }
 
 .botoes a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
-  height: 10px;
+  height: 40px;
   display: block;
 }
 
 .botoes button {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 button:hover
 {
