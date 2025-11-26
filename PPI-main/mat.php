@@ -71,8 +71,26 @@ Agora que sabemos quantos litros, tem em 80% de uma banheira de 0,3m³, faremos 
    X               = 240L <br>
 Resultando em: ≈ 89 embalagens  <br> 
 Alternativa correta: D </p>";
-    echo "Acertos: $result";
 }
+ $m4= $_GET ["m4"];
+    if ($m4==1)
+    {
+        $result++;
+        echo "<p class='acerto'>✅ Você acertou a questão 3!</p><br>";
+    }
+    else 
+    {
+        echo  "<p class='erro'>❌ Ops, você errou a questão 3. Vamos analisar a resposta certa<br><br>
+        a equação é INVERSAMENTE PROPORCIONAL, então usaremos uma razão com cada k acampanhando cada uma das máquinas e usando o valor total das 3 como referência: <br>
+          K/2+K/3+K/5=31.000 <br> Com ela montada, multiplicando os 3 valores, obtemos o valor do denominador da nossa equação, 30. Individuallmente, dividimos cada um deles por 30 e multiplicamos pelo k. <br>
+          15K+10K+6K/30=31.000  <br> Agora si, os somamos porém mantendo o 30.  31K/30=31.000. <br>
+          Isolando o k, obtemos uma multiplicação: 31K=31.000*30  -->  31K=930.000 -->   K=930.000/31 -->  K=30.000. <br>
+          Agora que já resolvemos metade da questão, vamos para a resolução: <br>
+          A máquina mais velha tem 5 anos, então, essa será nossa referência para o cálculo. <br>
+          K/5=X --> K/5=X <br></p>"
+
+    }
+        echo "<h1> Acertos: $result </h1><br;"
 }
 ?>
 <style>
