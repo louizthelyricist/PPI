@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" action="css">
+    <link rel="stylesheet" action="ch.css">
 </head>
 <body>
     <form method="get" action="páginainicial.html">
@@ -72,8 +72,7 @@ Agora que sabemos quantos litros, tem em 80% de uma banheira de 0,3m³, faremos 
 Resultando em: ≈ 89 embalagens  <br> 
 Alternativa correta: D </p>";
     }
-    echo "<h1>Acertos: $result</h1>";
-}
+
  $m4= $_GET ["m4"];
     if ($m4==1)
     {
@@ -89,10 +88,12 @@ Alternativa correta: D </p>";
           Isolando o k, obtemos uma multiplicação: 31K=31.000*30  -->  31K=930.000 -->   K=930.000/31 -->  K=30.000. <br>
           Agora que já resolvemos metade da questão, vamos para a resolução: <br>
           A máquina mais velha tem 5 anos, então, essa será nossa referência para o cálculo. <br>
-          K/5=X --> K/5=X <br></p>"
+          K/5=X --> K/5=X <br>
+          Alternativa correta: B </p>";
 
     }
-        echo "<h1> Acertos: $result </h1><br;"
+        echo "<h1> Acertos: $result </h1><br>";
+}
 ?>
 <style>
 body{
@@ -153,8 +154,8 @@ h1
    font-size: 20px;
 }
 
-</style>
 <input type="submit" value="Rebobinar">
+</style>
 </fieldset>
 </form>
 </body>
