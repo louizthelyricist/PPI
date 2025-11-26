@@ -71,6 +71,8 @@ Agora que sabemos quantos litros, tem em 80% de uma banheira de 0,3m³, faremos 
    X               = 240L <br>
 Resultando em: ≈ 89 embalagens  <br> 
 Alternativa correta: D </p>";
+    }
+    echo "<h1>Acertos: $result</h1>";
 }
  $m4= $_GET ["m4"];
     if ($m4==1)
@@ -91,9 +93,7 @@ Alternativa correta: D </p>";
 
     }
         echo "<h1> Acertos: $result </h1><br;"
-}
 ?>
-<style>
 <style>
 body{
     font-size: 28px;
@@ -121,11 +121,11 @@ fieldset{
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 }
 @keyframes piscarsuave {
-  0%   { background-color: rgba(182, 148, 214, 0.6); }
+  5%   { background-color: rgba(182, 148, 214, 0.6); }
   25%  { background-color: rgba(228, 9, 111, 0.7); }
   50% {background-color: rgba(228, 9, 38, 0.7); }
   75% {background-color: rgba(177, 82, 206, 0.7); }
-  100%   { background-color: rgba(182, 148, 214, 0.6); }
+  100%   { background-color: rgba(182, 148, 214, 1); }
     
 }
 input[type="submit"]
@@ -147,11 +147,14 @@ input[type="submit"]:hover
 	 background-color:  rgb(194, 210, 175, 0.6); 
 	 transform: scale(1.05);
 }
+h1
+{
+   text-align: center;
+   font-size: 20px;
+}
+
 </style>
 <input type="submit" value="Rebobinar">
-
-
-</style>
 </fieldset>
 </form>
 </body>
