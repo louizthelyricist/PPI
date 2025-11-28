@@ -65,7 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
         echo  "<p class='erro'>❌ Ops, você errou a questão 5. Vamos analisar a resposta certa</p><br>";
     }
     
-    echo "Acertos: $result";
+    echo "<h1>Acertos: $result</h1>";
 }
 ?>
 <style>
