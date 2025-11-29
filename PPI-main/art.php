@@ -32,11 +32,11 @@ relatividade de Einstein. <br>
         <p> A obra de Salvador Dalí associa tempo e memória.
  Essa associação pode ser estabelecida de acordo com o princípio da:<br> </p>
         </div>
-        <label> <input type="radio" name="a1" value="0"> a) linearidade. <br></label>
-        <label> <input type="radio" name="a1" value="0"> b) progressividade.<br></label>
-        <label> <input type="radio" name="a1" value="0"> c) mensurabilidade. <br> </label>
-        <label> <input type="radio" name="a1" value="1"> d) condicionalidade.<br></label>
-        <label> <input type="radio" name="a1" value="0"> e) destacar o corpo do artista em contato com o expectador.<br></label>
+        <label> <input type="radio" name="a1" value="0"> a) Linearidade. <br></label>
+        <label> <input type="radio" name="a1" value="0"> b) Progressividade.<br></label>
+        <label> <input type="radio" name="a1" value="0"> c) Mensurabilidade. <br> </label>
+        <label> <input type="radio" name="a1" value="1"> d) Condicionalidade.<br></label>
+        <label> <input type="radio" name="a1" value="0"> e) Destacar o corpo do artista em contato com o expectador.<br></label>
     </fieldset>
     <fieldset>
         <legend>Questão 2</legend>
@@ -48,15 +48,15 @@ relatividade de Einstein. <br>
                     <br>
                 </p>
                 <label> <input type="radio" name="a2" value="0"> a) As formas de criticar obras do passado se repetem.<br></label>
-                <label> <input type="radio" name="a2" value="0"> b)  A recorrência de temas marca a arte do final do século XX.<br></label>
-                <label> <input type="radio" name="a2" value="1"> c)  As criações desmistificam os valores estéticos estabelecidos.<br></label>
-                <label> <input type="radio" name="a2" value="0"> d)  O distanciamento temporal permite a transformação dos referenciais estéticos.<br></label>
+                <label> <input type="radio" name="a2" value="0"> b) A recorrência de temas marca a arte do final do século XX.<br></label>
+                <label> <input type="radio" name="a2" value="1"> c) As criações desmistificam os valores estéticos estabelecidos.<br></label>
+                <label> <input type="radio" name="a2" value="0"> d) O distanciamento temporal permite a transformação dos referenciais estéticos.<br></label>
                 <label> <input type="radio" name="a2" value="0"> e) O objeto ausente sugere a degradação da forma superando o modelo artístico. </label>
     </fieldset>
     <fieldset>
         <legend>Questão 3</legend>
         <p class="central"> <img src="sequencia/a3.png" alt="imagem central"></p>
-        <h4> HAUSMANN, R. O crítico de arte. Litografia e fotocolagem em papel, 32 cm x 25,5 cm. Tate Collection, Londres, 1919. Disponível em: https://medium.com. Acesso em: 19 jun. 2019.</h4>
+        <p> HAUSMANN, R. O crítico de arte. Litografia e fotocolagem em papel, 32 cm x 25,5 cm. Tate Collection, Londres, 1919. Disponível em: https://medium.com. Acesso em: 19 jun. 2019.</p>
         <div class="container">
         <p>
 Enem (2021) - Produzida em 1919, a obra O crítico de arte, de Hausmann, utiliza procedimentos de composição que revelam a: </div><br>
@@ -64,7 +64,7 @@ Enem (2021) - Produzida em 1919, a obra O crítico de arte, de Hausmann, utiliza
         <label> <input type="radio" name="a3" value="0"> b) Necessidade de reconhecimento social de uma nova estética.<br></label>
         <label> <input type="radio" name="a3" value="0"> c) Valorização da vanguarda artística pelo mercado de arte.<br></label>
         <label> <input type="radio" name="a3" value="0"> d) Beleza da arte em meio às turbulências do pós-guerra.<br></label>
-        <label> <input type="radio" name="a3" value="0"> e) Fragilidade da formação acadêmica dos novos artistas.. </label>
+        <label> <input type="radio" name="a3" value="0"> e) Fragilidade da formação acadêmica dos novos artistas. </label>
     </fieldset>
     <fieldset>
         <legend>Questão 4</legend>
@@ -79,11 +79,11 @@ Enem (2021) - Produzida em 1919, a obra O crítico de arte, de Hausmann, utiliza
             </p>
             <p>O documento de Marinetti, de 1909, propõe os referenciais estéticos do Futurismo, que valorizam a: </p>
             </div>
-            <label> <input type="radio" name="a4" value="0"> a) composição estática.<br></label>
-            <label> <input type="radio" name="a4" value="1"> b) inovação tecnológica.<br> </label>
-            <label> <input type="radio" name="a4" value="0"> c) suspensão do tempo. <br> </label>
-            <label> <input type="radio" name="a4" value="0"> d) retomada do helenismo.<br></label>
-            <label> <input type="radio" name="a4" value="0"> e) manutenção das tradições. <br></label>
+            <label> <input type="radio" name="a4" value="0"> a) Composição estática.<br></label>
+            <label> <input type="radio" name="a4" value="1"> b) Inovação tecnológica.<br> </label>
+            <label> <input type="radio" name="a4" value="0"> c) Suspensão do tempo. <br> </label>
+            <label> <input type="radio" name="a4" value="0"> d) Retomada do helenismo.<br></label>
+            <label> <input type="radio" name="a4" value="0"> e) Manutenção das tradições. <br></label>
             </fieldset>
         <fieldset>
             <legend>Questão 5</legend>
