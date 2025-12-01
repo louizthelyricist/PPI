@@ -163,9 +163,9 @@ h1
    text-align: center;
    font-size: 20px;
 }
+</style>
 
 <input type="submit" value="Rebobinar">
-</style>
 </fieldset>
 </form>
 </body>
