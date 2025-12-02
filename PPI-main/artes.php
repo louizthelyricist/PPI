@@ -9,33 +9,11 @@
     <form method="get" action="páginainicial.html">
 <fieldset>
 <?php
-echo "Português:";
 if ($_SERVER['REQUEST_METHOD'] == 'GET')
     $result= 0;
-$p1= $_GET ["p1"];
-    if ($p1==1)
-     {
-        $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 1!</p><br>";
-    }
-    else 
-    {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 1. Vamos analisar a resposta certa</p><br>";
-    }
-  $p2= $_GET ["p2"];
-    if ($p2==1)
-    {
-        $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 2!</p><br>";
-    }
-    else 
-    {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa. <br><br>
-        Ao abordar a história e as lembranças da avó, o uso da locução “antes de” representa passado, mudança. O lembrete de alguém que já não vive da mesma forma e não lembra de quase nada, mas ainda sim ninguém a esqueceu. Não é somente uma comparação de lembranças, ela ressalta memórias que redefiniram todo seu presente. <br>
-        Alternativa correta: C) Ressalta fatos que ressignificam o momento presente. <br> </p>";
-    }
 {
-	$a1 = $_GET ["a1"];
+    {
+$a1 = $_GET ["a1"];
 $a2 = $_GET ["a2"];
 $a3 = $_GET ["a3"];
 $a4 = $_GET ["a4"];
@@ -94,6 +72,7 @@ echo "<p> Artes:</p>";
         echo  "<p class='erro'>❌ Ops, você errou a questão 5. Vamos analisar a resposta certa</p><br>";
     }
     echo "<h1>Acertos: $result</h1>";
+}
 ?>
 <style>
 body{
