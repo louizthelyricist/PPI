@@ -77,11 +77,11 @@ Alternativa correta: D </p>";
     if ($m4==1)
     {
         $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 3!</p><br>";
+        echo "<p class='acerto'>✅ Você acertou a questão 4!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 3. Vamos analisar a resposta certa<br><br>
+        echo  "<p class='erro'>❌ Ops, você errou a questão 4. Vamos analisar a resposta certa<br><br>
         a equação é INVERSAMENTE PROPORCIONAL, então usaremos uma razão com cada k acampanhando cada uma das máquinas e usando o valor total das 3 como referência: <br>
           K/2+K/3+K/5=31.000 <br> Com ela montada, multiplicando os 3 valores, obtemos o valor do denominador da nossa equação, 30. Individuallmente, dividimos cada um deles por 30 e multiplicamos pelo k. <br>
           15K+10K+6K/30=31.000  <br> Agora si, os somamos porém mantendo o 30.  31K/30=31.000. <br>
@@ -91,6 +91,16 @@ Alternativa correta: D </p>";
           K/5=X --> K/5=X <br>
           Alternativa correta: B </p>";
 
+    }
+     $m5= $_GET ["m5"];
+    if ($m5==1)
+    {
+        $result++;
+        echo "<p class='acerto'>✅ Você acertou a questão 5!</p><br>";
+    }
+    else 
+    {
+        echo  "<p class='erro'>❌ Ops, você errou a questão 5. Vamos analisar a resposta certa<br><br>";
     }
         echo "<h1> Acertos: $result </h1><br>";
 }

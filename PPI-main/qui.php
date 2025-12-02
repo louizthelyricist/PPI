@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
     else 
     {
         echo  "<p class='erro'>❌ Ops, você errou a questão 1. Vamos analisar a resposta certa. <br><br>
-        Um dos métodos de misturas é de floculação. Ele é bom nessas circunstâncias pois ao misturar LCC, que possui uma composição muito parecida com o petróleo, com água, se formam “flocos”. Nenhum dos dois se dissolve, mas sim se juntam, facilitando a remoção final somente dada pelo próximo método de separação:. <br>
+        Um dos métodos de misturas é de floculação. Ele é bom nessas circunstâncias pois ao misturar LCC, que possui uma composição muito parecida com o petróleo, com água, se formam “flocos”. Nenhum dos dois se dissolve, mas sim se juntam, facilitando a remoção final somente dada pelo próximo método de separação: <br>
 Separação magnética, podendo ser utilizada para “atrair” esses flocos (o petróleo principalmente) com um imã pois os pesquisadores misturaram ao LCC nanopartículas magnéticas. Removendo então o petróleo da água. <br></p>";
     }
     
