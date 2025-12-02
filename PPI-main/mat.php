@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
         echo  "<p class='erro'>❌ Ops, você errou a questão 1. Vamos analisar a resposta certa. <br> <br>
         O valor do uber se concentra em 3 variáveis: F (taxa fixa); T (tempo da corrida) e D (distância percorrida). <br>
 O exercício contém 3 valores associados às variáveis: $2,00 como taxa fixa; $0,40 por minuto de viagem e $1,40 por quilômetro rodado.
-Porém, somente 2 desses valores dependem das variáveis: o tempo e a distância. A taxa fixa já é dada na sua totalidade. <br>
+Porém, somente 2 desses valores dependem das variáveis: o tempo e a distância. Já a taxa fixa já é dada na sua totalidade. <br>
 Montando a equação, ficaria:<br>
 V= 2,00 + 0,40T + 1,40D <br>
 Alternativa correta: B </p>";
@@ -58,11 +58,11 @@ Alternativa correta: D. <br></p>";
     else 
     {
         echo  "<p class='erro'>❌ Ops, você errou a questão 3. Vamos analisar a resposta certa<br><br>
-        Lembrando da conversão de unidades: 1m³=1000L. <br>
-Faremos uma regra de três, para saber quantos litros são necessários para enchermos uma banheira de 0,3m³. <br>
+        Lembrando da conversão de unidades: 1m³=1000L <br>
+Faremos uma regra de três, para saber quantos litros são necessários para enchermos uma banheira de 0,3m³ <br>
 1000L = 1m³ <br>
   X      = 0,3m³ <br>
-Resultando em: X = 300L. <br>
+Resultando em: X = 300L <br>
 O enunciado nos mostra que não podemos utilizar 100% da banheira, mas sim, 80%. Teremos de resolver com porcentagem. <br>
 Podemos considerar 80% como 80/100= 0,8. <br>
 300L*0,8 = 240L <br>
@@ -77,30 +77,20 @@ Alternativa correta: D </p>";
     if ($m4==1)
     {
         $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 4!</p><br>";
+        echo "<p class='acerto'>✅ Você acertou a questão 3!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 4. Vamos analisar a resposta certa<br><br>
-        a equação é INVERSAMENTE PROPORCIONAL, então usaremos uma razão com cada k acompanhando cada uma das máquinas e usando o valor total das 3 como referência: <br>
-          K/2+K/3+K/5=31.000 <br> Com ela montada, multiplicando os 3 valores, obtemos o valor do denominador da nossa equação, 30. Individualmente, dividimos cada um deles por 30 e multiplicamos pelo k. <br>
-          15K+10K+6K/30=31.000  <br> Agora si, os somamos, porém mantendo o 30.  31K/30=31.000. <br>
+        echo  "<p class='erro'>❌ Ops, você errou a questão 3. Vamos analisar a resposta certa<br><br>
+        a equação é INVERSAMENTE PROPORCIONAL, então usaremos uma razão com cada k acampanhando cada uma das máquinas e usando o valor total das 3 como referência: <br>
+          K/2+K/3+K/5=31.000 <br> Com ela montada, multiplicando os 3 valores, obtemos o valor do denominador da nossa equação, 30. Individuallmente, dividimos cada um deles por 30 e multiplicamos pelo k. <br>
+          15K+10K+6K/30=31.000  <br> Agora si, os somamos porém mantendo o 30.  31K/30=31.000. <br>
           Isolando o k, obtemos uma multiplicação: 31K=31.000*30  -->  31K=930.000 -->   K=930.000/31 -->  K=30.000. <br>
           Agora que já resolvemos metade da questão, vamos para a resolução: <br>
           A máquina mais velha tem 5 anos, então, essa será nossa referência para o cálculo. <br>
           K/5=X --> K/5=X <br>
           Alternativa correta: B </p>";
 
-    }
-     $m5= $_GET ["m5"];
-    if ($m5==1)
-    {
-        $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 5!</p><br>";
-    }
-    else 
-    {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 5. Vamos analisar a resposta certa<br><br>";
     }
         echo "<h1> Acertos: $result </h1><br>";
 }
@@ -163,8 +153,8 @@ h1
    text-align: center;
    font-size: 20px;
 }
-</style>
 
+</style>
 <input type="submit" value="Rebobinar">
 </fieldset>
 </form>
