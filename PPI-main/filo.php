@@ -69,7 +69,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
 }
 ?>
 <style>
-<style>
 body{
     font-size: 28px;
     background-color: #b6cbe7ff;
@@ -96,11 +95,11 @@ fieldset{
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 }
 @keyframes piscarsuave {
-  0%   { background-color: rgba(182, 148, 214, 0.6); }
+  5%   { background-color: rgba(182, 148, 214, 0.6); }
   25%  { background-color: rgba(228, 9, 111, 0.7); }
   50% {background-color: rgba(228, 9, 38, 0.7); }
   75% {background-color: rgba(177, 82, 206, 0.7); }
-  100%   { background-color: rgba(182, 148, 214, 0.6); }
+  100%   { background-color: rgba(182, 148, 214, 1); }
     
 }
 input[type="submit"]
@@ -122,7 +121,12 @@ input[type="submit"]:hover
 	 background-color:  rgb(194, 210, 175, 0.6); 
 	 transform: scale(1.05);
 }
-</style>
+h1
+{
+   text-align: center;
+   font-size: 20px;
+}
+</style> 
 <input type="submit" value="Rebobinar">
 
 
