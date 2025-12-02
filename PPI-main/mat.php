@@ -154,8 +154,8 @@ h1
    font-size: 20px;
 }
 
-<input type="submit" value="Rebobinar">
 </style>
+<input type="submit" value="Rebobinar">
 </fieldset>
 </form>
 </body>
