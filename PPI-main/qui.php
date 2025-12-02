@@ -23,8 +23,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
     else 
     {
         echo  "<p class='erro'>❌ Ops, você errou a questão 1. Vamos analisar a resposta certa. <br><br>
-        Um dos métodos de misturas é de floculação. Ele é bom nessas circunstâncias pois ao misturar LCC, que possui uma composição muito parecida com o petróleo, com água, se formam “flocos”. Nenhum dos dois se dissolve, mas sim se juntam, facilitando a remoção final somente dada pelo próximo método de separação: <br>
-Separação magnética, podendo ser utilizada para “atrair” esses flocos (o petróleo principalmente) com um imã pois os pesquisadores misturaram ao LCC nanopartículas magnéticas. Removendo então o petróleo da água. <br></p>";
+ a) flotação e decantação. <br>
+A flotação serve para separar misturas heterogêneas sólidas ou líquiidas, porém nesse caso temos uma mistura sólida e líquida.
+ b) decomposição e centrifugação.<br>
+A decomposição é um metodo que serve para modificar e transformar uma substância em outra, o que não é o caso desse exercício. Já a centrifugação serve para separar misturas baseada nas densidades dos componentes.  <br>
+ c) floculação e separação magnética.<br>
+A floculação é boa nessas circunstâncias pois ao se misturar LCC, que possui uma composição muito parecida com o petróleo, com água, se formam “flocos”. Nenhum dos dois se dissolve, mas sim se juntam,
+facilitando a remoção final somente dada pelo próximo método de separação: Separação magnética, podendo ser utilizada para “atrair” esses flocos (o petróleo principalmente) com um imã pois os pesquisadores misturaram ao LCC nanopartículas magnéticas. Removendo
+então o petróleo da água. <br>
+ d) destilação fracionada e peneiração.<br>
+A destilação fracionada é um processo utilizado para separar misturas homogêneas através de vapor enquanto a peneiração é um processo que utiliza o tamanho dos componentes no seu metodo de separação. Como não podemos nem peneirar... <br>
+ e) dissolução fracionada e magnetização. <br>
+A magnetização nesse caso somente com a disslução fracionada...<br></p>"
     }
     
     
@@ -36,7 +46,16 @@ $q2= $_GET ["q2"];
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa.<br> <br></p>";
+        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa.<br> 
+ Para recapitular, devemos distinguir as partículas de água do sal. <br>
+ O sal é uma composição iônica formado por Nitrogêio e Hidrogênio
+        a) ligações iônicas.<br>
+ b) interações dipolo-dipolo. <br>
+ c) interações dipolo-dipolo induzido. <br>
+ d) interações íon-dipolo.<br>
+ e) ligações covalentes.<br>
+        
+        <br></p>";
     }
         $q3= $_GET ["q3"];
     if ($q3==1)
