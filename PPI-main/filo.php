@@ -14,6 +14,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
     $result= 0;
 {
     echo "<legend> Gabarito <br></legend>";
+    echo "<p> Questão 1. <br> 
+    
+A) qualidade imperecível do mundo.<br>
+	Errada: Em nenhum momento o texto cita “qualidade”.<br>
+ B) degradação material da natureza. <br>
+	Errada: Não é citado em nenhum dos fragmentos sobre degradação.<br>
+ C) imobilidade imanente do universo.<br>
+	Errada: Pelo o contrário, Heráclito, pensava justamente na mobilidade do universo.<br>
+ D) distribuição dicotômica do cosmos.<br>
+	Correta: Para responder esta questão, precisamos ter um conhecimento prévio sobre a principal idéia de Heráclito: “Nos mesmos rios entramos e não entramos, somos e não somos.” Esta percepção nos mostra como o mundo é mutável, e movimentado. Também dizendo que “o bem e o mal, andam lado a lado”, que o certo e o errado, estão de certa forma conectados.<br>
+E) desordem incontornável das coisas.<br>
+	Errada: Heráclito nos mostra que o universo, por mais que confuso, possui uma ordem. <br></p>";
     $h1= $_GET ["h1"];
     if ($h1==1)
     {
