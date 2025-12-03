@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" action="css">
+    <link rel="stylesheet" href="css">
 </head>
 <body>
     <form method="get" action="páginainicial.html">
@@ -11,12 +11,11 @@
 
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'GET')
-    $result= 0;
+    $result = 0; 
 {
     echo "<legend> Gabarito <br></legend>";
     echo "<p> Questão 1. <br> 
-    
-A) qualidade imperecível do mundo.<br>
+    A) qualidade imperecível do mundo.<br>
 	Errada: Em nenhum momento o texto cita “qualidade”.<br>
  B) degradação material da natureza. <br>
 	Errada: Não é citado em nenhum dos fragmentos sobre degradação.<br>
@@ -26,8 +25,9 @@ A) qualidade imperecível do mundo.<br>
 	Correta: Para responder esta questão, precisamos ter um conhecimento prévio sobre a principal idéia de Heráclito: “Nos mesmos rios entramos e não entramos, somos e não somos.” Esta percepção nos mostra como o mundo é mutável, e movimentado. Também dizendo que “o bem e o mal, andam lado a lado”, que o certo e o errado, estão de certa forma conectados.<br>
 E) desordem incontornável das coisas.<br>
 	Errada: Heráclito nos mostra que o universo, por mais que confuso, possui uma ordem. <br></p>";
-    $h1= $_GET ["h1"];
-    if ($h1==1)
+
+    $h1 = $_GET["h1"];
+    if ($h1 == 1)
     {
         $result++;
         echo "<p class='acerto'>✅ Você acertou a questão 1!</p><br>";
@@ -36,6 +36,7 @@ E) desordem incontornável das coisas.<br>
     {
         echo  "<p class='erro'>❌ Ops, você errou a questão 1. Analise a resposta certa em cima.</p><br>";
     }
+
     echo "<p> Questão 2. <br>
      A) tirania, oligarquia e república.<br>
 	Errada: Nem toda república é exatamente democrática. O voto pode ser do povo, mas não quer dizer que o que aconteça no partido ou até mesmo na eleição é pro povo.<br>
@@ -48,8 +49,9 @@ E) desordem incontornável das coisas.<br>
  E) monarquia, aristocracia e democracia.<br>
 	Correta: A monarquia exerce o governo de um, seja ele governador ou imperador, governando sozinho. A aristocracia é um governo feito por uma seletiva de pessoas entre as “melhores” da população. Por fim, a democracia é o governo do povo e para o povo, um dos seus princípios sendo a igualdade.<br>
     <br></p>";
-     $h2= $_GET ["h2"];
-    if ($h2==1)
+
+    $h2 = $_GET["h2"]; 
+    if ($h2 == 1)
     {
         $result++;
         echo "<p class='acerto'>✅ Você acertou a questão 2!</p><br>";
@@ -58,6 +60,7 @@ E) desordem incontornável das coisas.<br>
     {
         echo  "<p class='erro'>❌ Ops, você errou a questão 2. Analise a resposta certa em cima.</p><br>";
     }
+
     echo "<p> Questão 3. <br>
      A) sistema de crenças, conforme a proposta kantiana de objetividade do conhecimento.<br>
 Errada: Não envolve religião nem sistema de crenças.<br>
@@ -68,10 +71,11 @@ Errada:A compreensão aristotélica nos Analíticos fala sobre dedução e não 
 D) paradigma da racionalidade, alinhado ao modelo cartesiano de método.<br>
 Errada: O modelo cartesiano de método está ligado a resolução de problemas através da lógica e racionalidade, não envolve críticas sobre a persuasão do homem. <br>
  E) âmbito da persuasão, análogo às críticas platônicas aos sofistas.<br>
-Correta: Esta é uma questão sobre interpretação e um mínimo conhecimento base. A reflexão "radical" do autor sobre a arte da eloquência, ou melhor, da persuasão, limitando-se a criticar a mentira enfeitada que encanta e engana tantas pessoas. O ato de crítica também se refere às críticas platônicas aos sofistas, que espalhavam mentiras disfarçadas de conselhos para o povo, enganando-os e Platão os questionava, duvidando acerca da verdade dos seus argumentos.<br>
+Correta: Esta é uma questão sobre interpretação e um mínimo conhecimento base. A reflexão 'radical' do autor sobre a arte da eloquência, ou melhor, da persuasão, limitando-se a criticar a mentira enfeitada que encanta e engana tantas pessoas. O ato de crítica também se refere às críticas platônicas aos sofistas, que espalhavam mentiras disfarçadas de conselhos para o povo, enganando-os e Platão os questionava, duvidando acerca da verdade dos seus argumentos.<br>
 <br></p>";
-     $h3= $_GET ["h3"];
-    if ($h3==1)
+
+    $h3 = $_GET["h3"];
+    if ($h3 == 1)
     {
         $result++;
         echo "<p class='acerto'>✅ Você acertou a questão 3!</p><br>";
@@ -95,12 +99,10 @@ não há sobreposição de princípios, o texto sugere que punições são meios
 Resposta errada
 Pode até haver,sim, parâmetros, mas não com finalidade de reconhecer uma prescrição.
  E) Elaboração de convenções para referendar um costume.
-Resposta errada
-Uma convenção pode ser um bom aspecto para uma sociedade, mas não com o objetivo de referendar um costume.
+Resposta errada";
 
-    "
-     $h4= $_GET ["h4"];
-    if ($h4==1)
+     $h4 = $_GET["h4"]; 
+    if ($h4 == 1)
     {
         $result++;
         echo "<p class='acerto'>✅ Você acertou a questão 4!</p><br>";
@@ -109,8 +111,9 @@ Uma convenção pode ser um bom aspecto para uma sociedade, mas não com o objet
     {
         echo  "<p class='erro'>❌ Ops, você errou a questão 4. Analise a resposta certa em cima.</p><br>";
     }
-     $h5= $_GET ["h5"];
-    if ($h5==1)
+
+     $h5 = $_GET["h5"]; 
+    if ($h5 == 1)
     {
         $result++;
         echo "<p class='acerto'>✅ Você acertou a questão 5!</p><br>";
@@ -128,12 +131,11 @@ body{
     font-size: 28px;
     background-color: #b6cbe7ff;
 }
-@import url('https://fonts.google.com/specimen/Vend+Sans?categoryFilters=Feeling:%2FExpressive%2FCalm');
-    legend 
+legend 
 {
     font-family: Vend-Sans;
     font-size: 50px;
-    background-color: rgb(182, 148, 214, 0.6);
+    background-color: rgb(182, 148, 214, 0.6); 
     border-radius: 15px;
     font-weight: bold;
     animation: piscarsuave 3s infinite;
@@ -173,19 +175,17 @@ background-color: rgba(37, 185, 24, 0.479);
 }
 input[type="submit"]:hover
 {
-	 background-color:  rgb(194, 210, 175, 0.6); 
+	 background-color:  rgb(194, 210, 175, 0.6); /* ✅ rgb → rgba */
 	 transform: scale(1.05);
 }
 h1
 {
    text-align: center;
-   font-size: 20px;
 }
 </style> 
+
 <input type="submit" value="Rebobinar">
 
-
-</style>
 </fieldset>
 </form>
 </body>
