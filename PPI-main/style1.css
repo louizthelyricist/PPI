@@ -30,15 +30,15 @@ button
   flex-direction: column;
   gap: 10px;
   position: absolute;
-  top: 50%;
+  top: 520px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 450px;
 }
 fieldset {
   width: 500px;
-  height: 350px;
-  background-color: #555555;
+  height: 400px;
+  background-color: rgba(85, 85, 85, 0.705);
   border: 2px solid rgba(255, 255, 255, 0.10);
   border-radius: 20px;
   text-align: center; 

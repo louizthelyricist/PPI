@@ -92,6 +92,16 @@ Alternativa correta: D </p>";
           Alternativa correta: B </p>";
 
     }
+     $m5= $_GET ["m5"];
+    if ($m5==1)
+    {
+        $result++;
+        echo "<p class='acerto'>✅ Você acertou a questão 5!</p><br>";
+    }
+    else 
+    {
+        echo  "<p class='erro'>❌ Ops, você errou a questão 5. Vamos analisar a resposta certa<br><br>";
+    }
         echo "<h1> Acertos: $result </h1><br>";
 }
 ?>
@@ -154,8 +164,8 @@ h1
    font-size: 20px;
 }
 
-<input type="submit" value="Rebobinar">
 </style>
+<input type="submit" value="Rebobinar">
 </fieldset>
 </form>
 </body>

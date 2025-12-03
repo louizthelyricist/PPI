@@ -14,6 +14,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
     $result= 0;
 {
     echo "<legend> Gabarito <br></legend>";
+    echo "<p> Questão 1. <br> 
+    
+A) qualidade imperecível do mundo.<br>
+	Errada: Em nenhum momento o texto cita “qualidade”.<br>
+ B) degradação material da natureza. <br>
+	Errada: Não é citado em nenhum dos fragmentos sobre degradação.<br>
+ C) imobilidade imanente do universo.<br>
+	Errada: Pelo o contrário, Heráclito, pensava justamente na mobilidade do universo.<br>
+ D) distribuição dicotômica do cosmos.<br>
+	Correta: Para responder esta questão, precisamos ter um conhecimento prévio sobre a principal idéia de Heráclito: “Nos mesmos rios entramos e não entramos, somos e não somos.” Esta percepção nos mostra como o mundo é mutável, e movimentado. Também dizendo que “o bem e o mal, andam lado a lado”, que o certo e o errado, estão de certa forma conectados.<br>
+E) desordem incontornável das coisas.<br>
+	Errada: Heráclito nos mostra que o universo, por mais que confuso, possui uma ordem. <br></p>";
     $h1= $_GET ["h1"];
     if ($h1==1)
     {
@@ -65,10 +77,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
         echo  "<p class='erro'>❌ Ops, você errou a questão 5. Vamos analisar a resposta certa</p><br>";
     }
     
-    echo "Acertos: $result";
+    echo "<h1>Acertos: $result</h1>";
 }
 ?>
-<style>
 <style>
 body{
     font-size: 28px;
@@ -96,11 +107,11 @@ fieldset{
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 }
 @keyframes piscarsuave {
-  0%   { background-color: rgba(182, 148, 214, 0.6); }
+  5%   { background-color: rgba(182, 148, 214, 0.6); }
   25%  { background-color: rgba(228, 9, 111, 0.7); }
   50% {background-color: rgba(228, 9, 38, 0.7); }
   75% {background-color: rgba(177, 82, 206, 0.7); }
-  100%   { background-color: rgba(182, 148, 214, 0.6); }
+  100%   { background-color: rgba(182, 148, 214, 1); }
     
 }
 input[type="submit"]
@@ -122,7 +133,12 @@ input[type="submit"]:hover
 	 background-color:  rgb(194, 210, 175, 0.6); 
 	 transform: scale(1.05);
 }
-</style>
+h1
+{
+   text-align: center;
+   font-size: 20px;
+}
+</style> 
 <input type="submit" value="Rebobinar">
 
 

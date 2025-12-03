@@ -23,11 +23,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
     else 
     {
         echo  "<p class='erro'>❌ Ops, você errou a questão 1. Vamos analisar a resposta certa. <br><br>
-        Um dos métodos de misturas é de floculação. Ele é bom nessas circunstâncias pois ao misturar LCC, que possui uma composição muito parecida com o petróleo, com água, se formam “flocos”. Nenhum dos dois se dissolve, mas sim se juntam, facilitando a remoção final somente dada pelo próximo método de separação:. <br>
-Separação magnética, podendo ser utilizada para “atrair” esses flocos (o petróleo principalmente) com um imã pois os pesquisadores misturaram ao LCC nanopartículas magnéticas. Removendo então o petróleo da água. <br></p>";
+ a) flotação e decantação. <br>
+A flotação serve para separar misturas heterogêneas sólidas ou líquiidas, porém nesse caso temos uma mistura sólida e líquida.
+ b) decomposição e centrifugação.<br>
+A decomposição é um metodo que serve para modificar e transformar uma substância em outra, o que não é o caso desse exercício. Já a centrifugação serve para separar misturas baseada nas densidades dos componentes.  <br>
+ c) floculação e separação magnética.<br>
+A floculação é boa nessas circunstâncias pois ao se misturar LCC, que possui uma composição muito parecida com o petróleo, com água, se formam “flocos”. Nenhum dos dois se dissolve, mas sim se juntam,
+facilitando a remoção final somente dada pelo próximo método de separação: Separação magnética, podendo ser utilizada para “atrair” esses flocos (o petróleo principalmente) com um imã pois os pesquisadores misturaram ao LCC nanopartículas magnéticas. Removendo
+então o petróleo da água. <br>
+ d) destilação fracionada e peneiração.<br>
+A destilação fracionada é um processo utilizado para separar misturas homogêneas através de vapor enquanto a peneiração é um processo que utiliza o tamanho dos componentes no seu metodo de separação. Como não podemos nem peneirar... <br>
+ e) dissolução fracionada e magnetização. <br>
+A magnetização nesse caso somente com a disslução fracionada...<br></p>"
     }
     
-    }
+    
 $q2= $_GET ["q2"];
     if ($q2==1)
     {
@@ -36,7 +46,16 @@ $q2= $_GET ["q2"];
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa.<br> <br></p>";
+        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa.<br> 
+ Para recapitular, devemos distinguir as partículas de água do sal. <br>
+ O sal é uma composição iônica formado por Nitrogêio e Hidrogênio
+        a) ligações iônicas.<br>
+ b) interações dipolo-dipolo. <br>
+ c) interações dipolo-dipolo induzido. <br>
+ d) interações íon-dipolo.<br>
+ e) ligações covalentes.<br>
+        
+        <br></p>";
     }
         $q3= $_GET ["q3"];
     if ($q3==1)
@@ -47,10 +66,20 @@ $q2= $_GET ["q2"];
     else 
     {
         echo  "<p class='erro'>❌ Ops, você errou a questão 3. Vamos analisar a resposta certa.<br> <br></p>";
-        echo "Acertos: $result";
+    }
+        $q4= $_GET ["q4"];
+    if ($q4==1)
+    {
+         $result++;
+        echo "<p class='acerto'>✅ Você acertou a questão 4!</p><br>";
+    }
+    else 
+    {
+        echo  "<p class='erro'>❌ Ops, você errou a questão 4. Vamos analisar a resposta certa.<br> <br></p>";
+    }
+        echo "<h1> Acertos: $result </h1>";
 }
 ?>
-<style>
 <style>
 body{
     font-size: 28px;
@@ -78,11 +107,11 @@ fieldset{
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 }
 @keyframes piscarsuave {
-  0%   { background-color: rgba(182, 148, 214, 0.6); }
+  5%   { background-color: rgba(182, 148, 214, 0.6); }
   25%  { background-color: rgba(228, 9, 111, 0.7); }
   50% {background-color: rgba(228, 9, 38, 0.7); }
   75% {background-color: rgba(177, 82, 206, 0.7); }
-  100%   { background-color: rgba(182, 148, 214, 0.6); }
+  100%   { background-color: rgba(182, 148, 214, 1); }
     
 }
 input[type="submit"]
@@ -104,11 +133,16 @@ input[type="submit"]:hover
 	 background-color:  rgb(194, 210, 175, 0.6); 
 	 transform: scale(1.05);
 }
+h1
+{
+   text-align: center;
+   font-size: 20px;
+}
 </style>
 <input type="submit" value="Rebobinar">
 
 
-</style>
+
 </fieldset>
 </form>
 </body>
