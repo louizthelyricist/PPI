@@ -100,7 +100,19 @@ Alternativa correta: D </p>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 5. Vamos analisar a resposta certa<br><br>";
+        echo  "<p class='erro'>❌ Ops, você errou a questão 5. Vamos analisar a resposta certa<br><br>
+Para a resolução da questão, precisamos identificar a porcentagem que devemos fazer e, 
+interpretar se precisaremos, apenas mostrar a porcentagem, descontar ou aumentar no
+valor. <br>
+Neste caso, teremos de fazer um aumento, pois pede o peso máximo que a mala deve
+ter, para não exceder o limite. Então seria um aumento de 8% ( margem de erro da
+balança) em um valor( peso da mala) de 23kg. <br>
+Podemos simplificar a porcentagem fazendo 23 multiplicado por 0,8( 8/100).<br>
+23*0,8=1,84.<br>
+Agora, o que nos resta é somar esta porcentagem ao valor inicial.<br>
+23+1,84= 24,84. <br>
+O que nos leva a marcar a alternativa correta: D.
+        <br></p>";
     }
         echo "<h1> Acertos: $result </h1><br>";
 }
