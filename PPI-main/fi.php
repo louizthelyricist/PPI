@@ -20,9 +20,7 @@ $q4= $_GET ["q4"];
         <input type="hidden" name="q2" value="<?php echo $_GET['q2']; ?>">
         <input type="hidden" name="q3" value="<?php echo $_GET['q3']; ?>">
         <input type="hidden" name="q4" value="<?php echo $_GET['q4']; ?>">
-        <input type="submit" value="Enviar">
     </fieldset>
-</body>
 <style>
 body{
     font-size: 28px;
@@ -82,4 +80,7 @@ h1
    font-size: 20px;
 }
 </style> 
+<fieldset>
 <input type="submit" value="Rebobinar">
+</fieldset>
+</body>
