@@ -98,7 +98,11 @@ Não ocorre uma ligação química entre as moléculas de água e as partículas
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 4. Vamos analisar a resposta certa.<br> <br></p>";
+        echo  "<p class='erro'>❌ Ops, você errou a questão 4. Vamos analisar a resposta certa.<br> <br>
+        
+        
+        
+        </p>";
     }
         echo "<h1> Acertos: $result </h1>";
 }
