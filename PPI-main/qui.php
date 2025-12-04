@@ -24,15 +24,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
     {
         echo  "<p class='erro'>❌ Ops, você errou a questão 1. Vamos analisar a resposta certa. <br><br>
  a) flotação e decantação. <br>
-A flotação serve para separar misturas heterogêneas sólidas ou líquiidas, porém nesse caso temos uma mistura sólida e líquida.<br>
+A flotação serve para separar misturas heterogêneas de sólidos com densidades diferentes, porém nesse caso temos uma mistura líquido-líquido heterogênea. <br>
  b) decomposição e centrifugação.<br>
-A decomposição é um metodo que serve para modificar e transformar uma substância em outra, o que não é o caso desse exercício. Já a centrifugação serve para separar misturas baseada nas densidades dos componentes.  <br>
+ A decomposição é um método que serve para modificar e transformar uma substância em outra, o que não é o caso desse exercício. Já a centrifugação serve para separar misturas heterogêneas onde os componentes possuem densidades diferentes.<br>
  c) floculação e separação magnética.<br>
-A floculação é boa nessas circunstâncias pois ao se misturar LCC, que possui uma composição muito parecida com o petróleo, com água, se formam “flocos”. Nenhum dos dois se dissolve, mas sim se juntam,
-facilitando a remoção final somente dada pelo próximo método de separação: Separação magnética, podendo ser utilizada para “atrair” esses flocos (o petróleo principalmente) com um imã pois os pesquisadores misturaram ao LCC nanopartículas magnéticas. Removendo
-então o petróleo da água. <br>
+A floculação é boa nessas circunstâncias pois ao se misturar LCC, que possui uma composição muito parecida com o petróleo, com água, se formam “flocos”. Nenhum dos dois se dissolvem na água, mas sim se juntam, facilitando a remoção final somente dada pelo próximo método de separação: Separação magnética, podendo ser utilizada para “atrair” esses flocos (o petróleo principalmente) com um imã pois os pesquisadores misturaram ao LCC nanopartículas magnéticas. Removendo então o petróleo da água. <br>
  d) destilação fracionada e peneiração.<br>
-A destilação fracionada é um processo utilizado para separar misturas homogêneas através de vapor enquanto a peneiração é um processo que utiliza o tamanho dos componentes no seu metodo de separação. Como não podemos nem peneirar... <br>
+ A destilação fracionada é um processo utilizado para separar misturas homogêneas com componentes com pontos de ebulição diferentes, enquanto a peneiração é um processo que utiliza o tamanho dos componentes no seu método de separação. Como não podemos nem peneirar.<br>
  e) dissolução fracionada e magnetização. <br>
 A magnetização nesse caso somente com a disslução fracionada.<br></p>";
     }
@@ -48,7 +46,7 @@ $q2= $_GET ["q2"];
     {
         echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa.<br> <br>
  Para recapitular, devemos distinguir as partículas de água do sal. <br>
- O sal é uma composição iônica formado por Nitrogêio e Hidrogênio mais um elemnto x, formando uma ligação com íons, enquanto a água é uma ligação dipolo-dipolo.<br>
+ O sal é uma composição iônica formado por Nitrogênio e Hidrogênio mais um elemento x, formando uma ligação com íons, enquanto a água é uma ligação dipolo-dipolo.<br>
  a) Ligações iônicas.<br>
 Incorreta:
 Não ocorre uma ligação química entre as moléculas de água e as partículas presentes no ar atmosférico.<br>
