@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
     {
         echo  "<p class='erro'>❌ Ops, você errou a questão 1. Vamos analisar a resposta certa. <br><br>
  a) flotação e decantação. <br>
-A flotação serve para separar misturas heterogêneas sólidas ou líquiidas, porém nesse caso temos uma mistura sólida e líquida.
+A flotação serve para separar misturas heterogêneas sólidas ou líquiidas, porém nesse caso temos uma mistura sólida e líquida.<br>
  b) decomposição e centrifugação.<br>
 A decomposição é um metodo que serve para modificar e transformar uma substância em outra, o que não é o caso desse exercício. Já a centrifugação serve para separar misturas baseada nas densidades dos componentes.  <br>
  c) floculação e separação magnética.<br>
@@ -34,7 +34,7 @@ então o petróleo da água. <br>
  d) destilação fracionada e peneiração.<br>
 A destilação fracionada é um processo utilizado para separar misturas homogêneas através de vapor enquanto a peneiração é um processo que utiliza o tamanho dos componentes no seu metodo de separação. Como não podemos nem peneirar... <br>
  e) dissolução fracionada e magnetização. <br>
-A magnetização nesse caso somente com a disslução fracionada...<br></p>"
+A magnetização nesse caso somente com a disslução fracionada.<br></p>";
     }
     
     
@@ -46,14 +46,25 @@ $q2= $_GET ["q2"];
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa.<br> 
+        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa.<br> <br>
  Para recapitular, devemos distinguir as partículas de água do sal. <br>
- O sal é uma composição iônica formado por Nitrogêio e Hidrogênio
-        a) ligações iônicas.<br>
- b) interações dipolo-dipolo. <br>
- c) interações dipolo-dipolo induzido. <br>
- d) interações íon-dipolo.<br>
- e) ligações covalentes.<br>
+ O sal é uma composição iônica formado por Nitrogêio e Hidrogênio mais um elemnto x, formando uma ligação com íons, enquanto a água é uma ligação dipolo-dipolo.<br>
+ a) Ligações iônicas.<br>
+Incorreta:
+Não ocorre uma ligação química entre as moléculas de água e as partículas presentes no ar atmosférico.<br>
+b) Interações dipolo-dipolo.<br>
+Incorreta:
+Não há como ser dipolo-dipolo pois o processo de condensação ocorre principalmente por ligações de hidrogênio e não por interações dipolo-dipolo.<br>
+c) Interações dipolo-dipolo induzido.<br>
+Incorreta:
+Os átomos são polares, então não há como ser dipolo-dipolo induzido.<br>
+d) Interações íon-dipolo.<br>
+Correta:
+Acontece quando um componente iônico é dissolvido em um solvente polar, no caso a água.<br>
+e) Ligações covalentes.<br>
+Incorreta:
+Não ocorre uma ligação química entre as moléculas de água e as partículas presentes no ar atmosférico.<br>
+
         
         <br></p>";
     }
@@ -65,7 +76,19 @@ $q2= $_GET ["q2"];
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 3. Vamos analisar a resposta certa.<br> <br></p>";
+        echo  "<p class='erro'>❌ Ops, você errou a questão 3. Vamos analisar a resposta certa.<br> <br>
+        Para essa questão, podemos fazer por eliminação já que:
+ a) Flotação.<br>
+ b) Levigação.<br>
+ Incorreta: Essas 2 são utilizadas para separar sólidos com densidades diferentes.<br>
+ c) Ventilação.<br>
+ Incorreta: Seu método é através da diferença de massa, utilizando corrente de ar.<br>
+ d) Peneiração.<br>
+ Incorreta: Separação através da diferença de tamanho dos elementos.<br>
+ e) Centrifugação. <br>
+ Correta:
+
+<br> </p>";
     }
         $q4= $_GET ["q4"];
     if ($q4==1)
