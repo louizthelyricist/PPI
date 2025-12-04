@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="ch.css">
 </head>
 <body>
-    <form method="get" action="páginainicial.html">
+    <form method="get" action="index.html">
 <fieldset>
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'GET')

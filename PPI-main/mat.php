@@ -6,7 +6,7 @@
     <link rel="stylesheet" action="ch.css">
 </head>
 <body>
-    <form method="get" action="páginainicial.html">
+    <form method="get" action="index.html">
     <fieldset>
 
 <?php
