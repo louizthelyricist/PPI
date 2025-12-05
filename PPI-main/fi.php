@@ -12,7 +12,7 @@ $q4= $_GET ["q4"];
     <title>Física</title>
 </head>
 <body>
-        <form method="get" action="index.html">
+        <form method="get" action="qui.php">
     <h1 class="h">Física</h1>
     <fieldset>
         <legend>Questão 1</legend>
@@ -81,6 +81,6 @@ h1
 }
 </style> 
 <fieldset>
-<input type="submit" value="Rebobinar">
+<input type="submit" value="Próximo">
 </fieldset>
 </body>

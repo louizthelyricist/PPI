@@ -23,16 +23,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
     else 
     {
         echo  "<p class='erro'>❌ Ops, você errou a questão 1. Vamos analisar a resposta certa. <br><br>
- a) flotação e decantação. <br>
-A flotação serve para separar misturas heterogêneas de sólidos com densidades diferentes, porém nesse caso temos uma mistura líquido-líquido heterogênea. <br>
- b) decomposição e centrifugação.<br>
- A decomposição é um método que serve para modificar e transformar uma substância em outra, o que não é o caso desse exercício. Já a centrifugação serve para separar misturas heterogêneas onde os componentes possuem densidades diferentes.<br>
- c) floculação e separação magnética.<br>
-A floculação é boa nessas circunstâncias pois ao se misturar LCC, que possui uma composição muito parecida com o petróleo, com água, se formam “flocos”. Nenhum dos dois se dissolvem na água, mas sim se juntam, facilitando a remoção final somente dada pelo próximo método de separação: Separação magnética, podendo ser utilizada para “atrair” esses flocos (o petróleo principalmente) com um imã pois os pesquisadores misturaram ao LCC nanopartículas magnéticas. Removendo então o petróleo da água. <br>
- d) destilação fracionada e peneiração.<br>
- A destilação fracionada é um processo utilizado para separar misturas homogêneas com componentes com pontos de ebulição diferentes, enquanto a peneiração é um processo que utiliza o tamanho dos componentes no seu método de separação. Como não podemos nem peneirar.<br>
- e) dissolução fracionada e magnetização. <br>
-A magnetização nesse caso somente com a disslução fracionada.<br></p>";
+a) Flotação e decantação.<br>
+Incorreta: A flotação serve para separar misturas heterogêneas de sólidos com densidades diferentes, porém nesse caso temos uma mistura líquido-líquido heterogênea.  <br>
+<br>
+b) Decomposição e centrifugação.<br>
+Incorreta: A decomposição é um método que serve para modificar e transformar uma substância em outra, o que não é o caso desse exercício. Já a centrifugação serve para separar misturas heterogêneas onde os componentes possuem densidades diferentes. <br>
+<br>
+c) Floculação e separação magnética.<br>
+Correta: A floculação é boa nessas circunstâncias pois ao se misturar LCC, que possui uma composição muito parecida com o petróleo, com água, se formam “flocos”. Nenhum dos dois se dissolvem na água, mas sim se juntam, facilitando a remoção final somente dada pelo próximo método de separação: Separação magnética, podendo ser utilizada para “atrair” esses flocos (o petróleo principalmente) com um imã pois os pesquisadores misturaram ao LCC nanopartículas magnéticas. Removendo então o petróleo da água.<br>
+<br>
+ d) Destilação fracionada e peneiração.<br>
+Incorreta: A destilação fracionada é um processo utilizado para separar misturas homogêneas com componentes com pontos de ebulição diferentes, enquanto a peneiração é um processo que utiliza o tamanho dos componentes no seu método de separação. Como não podemos nem peneirar.<br>
+<br>
+ e) Dissolução fracionada e magnetização.<br>
+Incorreta: A magnetização neste caso somente com a dissolução fracionada.<br></p>";
     }
     
     
@@ -45,23 +49,24 @@ $q2= $_GET ["q2"];
     else 
     {
         echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa.<br> <br>
- Para recapitular, devemos distinguir as partículas de água do sal. <br>
- O sal é uma composição iônica formado por Nitrogênio e Hidrogênio mais um elemento x, formando uma ligação com íons, enquanto a água é uma ligação dipolo-dipolo.<br>
+ Comentário: Para recapitular, devemos distinguir as partículas de água do sal.<br>
+O sal é uma composição iônica formada por Nitrogênio e Hidrogênio mais um elemento x, formando uma ligação com íons, enquanto a água é uma ligação dipolo-dipolo.<br>
+<br>
  a) Ligações iônicas.<br>
-Incorreta:
-Não ocorre uma ligação química entre as moléculas de água e as partículas presentes no ar atmosférico.<br>
-b) Interações dipolo-dipolo.<br>
-Incorreta:
-Não há como ser dipolo-dipolo pois o processo de condensação ocorre principalmente por ligações de hidrogênio e não por interações dipolo-dipolo.<br>
-c) Interações dipolo-dipolo induzido.<br>
-Incorreta:
-Os átomos são polares, então não há como ser dipolo-dipolo induzido.<br>
-d) Interações íon-dipolo.<br>
-Correta:
-Acontece quando um componente iônico é dissolvido em um solvente polar, no caso a água.<br>
-e) Ligações covalentes.<br>
-Incorreta:
-Não ocorre uma ligação química entre as moléculas de água e as partículas presentes no ar atmosférico.<br>
+Incorreta: Não ocorre uma ligação química entre as moléculas de água e as partículas presentes no ar atmosférico.<br>
+<br>
+ b) Interações dipolo-dipolo.<br>
+Incorreta: Ocorreria se o processo envolvesse somente moléculas polares.<br>
+<br>
+ c) Interações dipolo-dipolo induzido.<br>
+Incorreta: As moléculas são polares, então não há como ser dipolo-dipolo induzido.<br>
+<br>
+ d) Interações íon-dipolo.<br>
+Correta: É a que ocorre pois no processo existem íons que podem interagir com moléculas polares, pois ambas as substâncias (iônica e polar) possuem cargas.<br>
+<br>
+ e) Ligações covalentes.<br>
+Incorreta: Não ocorre uma ligação química entre as moléculas de água e as partículas presentes no ar atmosférico.<br>
+<br>
 
         
         <br></p>";
@@ -75,16 +80,19 @@ Não ocorre uma ligação química entre as moléculas de água e as partículas
     else 
     {
         echo  "<p class='erro'>❌ Ops, você errou a questão 3. Vamos analisar a resposta certa.<br> <br>
-        Para essa questão, podemos fazer por eliminação já que:
- a) Flotação.<br>
- b) Levigação.<br>
- Incorreta: Essas 2 são utilizadas para separar sólidos com densidades diferentes.<br>
- c) Ventilação.<br>
- Incorreta: Seu método é através da diferença de massa, utilizando corrente de ar.<br>
- d) Peneiração.<br>
- Incorreta: Separação através da diferença de tamanho dos elementos.<br>
- e) Centrifugação. <br>
- Correta:
+ Comentário: Para essa questão, podemos fazer por eliminação já que: <br>
+a) Flotação.<br>
+b) Levigação.<br>
+Incorretas: Essas 2 são utilizadas para separar sólidos com densidades diferentes.<br>
+<br>
+c) Ventilação.<br>
+Incorreta: Seu método é através da diferença de massa, utilizando corrente de ar.<br>
+<br>
+d) Peneiração.<br>
+Incorreta: Separação através da diferença de tamanho de partícula.<br>
+<br>
+e) Centrifugação.<br>
+Correta: É um método de separação de misturas sólido-líquido ou líquido-líquido, onde o componente mais denso desce até o fundo do recipiente e o menos denso sobe. Normalmente utilizada como auxiliar na decantação.<br>
 
 <br> </p>";
     }
@@ -97,10 +105,27 @@ Não ocorre uma ligação química entre as moléculas de água e as partículas
     else 
     {
         echo  "<p class='erro'>❌ Ops, você errou a questão 4. Vamos analisar a resposta certa.<br> <br>
-        
-        
-        
-        </p>";
+        Comentário: Para sua resolução precisamos saber a composição do benzeno e do carvão:<br>
+Carvão: composto principalmente por carbono, é uma molécula apolar.<br>
+Benzeno:  C6H6, uma molécula apolar também. <br>
+Com isso, não será possível outra alternativa se não: D) Interações dipolo induzido-dipolo induzido.<br>
+<br>
+ a) Ligações dissulfeto.<br>
+Incorreta: Ligações de dissulfeto são ligações covalentes entre átomos de enxofre.<br>
+<br>
+ b) Ligações covalentes.<br>
+Incorreta: Não ocorre nenhum compartilhamento de pares de elétrons entre o adsorvente e a substância.<br>
+<br>
+ c) Ligações de hidrogênio.<br>
+Incorreta: Não temos hidrogênio ligado a um átomo eletronegativo em nenhum dos componentes.<br>
+<br>
+ d) Interações dipolo induzido – dipolo induzido.<br>
+Correta: Condiz com a interação das moléculas apolares da questão.<br>
+<br>
+ e) Interações dipolo permanente – dipolo permanente.<br>
+Incorreta: Somente ocorre em moléculas polares.<br>
+<br>
+</p>";
     }
         echo "<h1> Acertos: $result </h1>";
 }
