@@ -30,11 +30,11 @@ E) Desordem incontornável das coisas.<br>
     if ($h1 == 1)
     {
         $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 1!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 1!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 1. Analise a resposta certa em cima.</p><br>";
+        echo  "<p class='erro'>✖ Ops, você errou a questão 1. Analise a resposta certa em cima.</p><br>";
     }
 
     echo "<p> Questão 2. <br>
@@ -54,11 +54,11 @@ E) Desordem incontornável das coisas.<br>
     if ($h2 == 1)
     {
         $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 2!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 2!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Analise a resposta certa em cima.</p><br>";
+        echo  "<p class='erro'>✖ Ops, você errou a questão 2. Analise a resposta certa em cima.</p><br>";
     }
 
     echo "<p> Questão 3. <br>
@@ -78,11 +78,11 @@ Correta: Esta é uma questão sobre interpretação e um mínimo conhecimento ba
     if ($h3 == 1)
     {
         $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 3!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 3!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 3. Analise a resposta certa em cima.</p><br>";
+        echo  "<p class='erro'>✖ Ops, você errou a questão 3. Analise a resposta certa em cima.</p><br>";
     }
     echo "<p> Questão 4. <br>
      A) Aplicação de meios para atingir um fim.<br>
@@ -107,23 +107,23 @@ Uma convenção pode ser um bom aspecto para uma sociedade, mas não com o objet
     if ($h4 == 1)
     {
         $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 4!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 4!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 4. Analise a resposta certa em cima.</p><br>";
+        echo  "<p class='erro'>✖ Ops, você errou a questão 4. Analise a resposta certa em cima.</p><br>";
     }
 
     echo "<p> Questão 5. <br>
-     A) Cognoscência e relação intersubjetiva.<br>
+A) Cognoscência e relação intersubjetiva.<br>
 	Errada:o texto não se baseia nisso. Relação intersubjetiva é a relação entre sujeitos e no texto não há relação entre sujeitos. O texto se relaciona em como a filosofia é um dos critérios para governar.<br>
- B) Mitologia e teorias cosmogônicas.<br>
+B) Mitologia e teorias cosmogônicas.<br>
 	Errada:não há indícios de mitologia ou quaisquer teorias no texto.<br>
- C) Cidadania e primazia da retórica.<br>
+C) Cidadania e primazia da retórica.<br>
 	Errada:A cidadania parece sim estar presente, primazia da retórica pode ser associada com persuasão, mas o texto não aparenta persuadir o leitor.<br>
- D) Moralidade e virtudes cardeais. <br>
+D) Moralidade e virtudes cardeais. <br>
  	Errada: O texto não apresenta exatamente essa ideia de “virtudes cardeais”.<br>
- E) Ética e exercício do poder.<br>
+E) Ética e exercício do poder.<br>
 Correta:
 O texto relaciona, sim, ética e poder político <br></p>";
 
@@ -131,11 +131,11 @@ O texto relaciona, sim, ética e poder político <br></p>";
     if ($h5 == 1)
     {
         $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 5!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 5!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 5. Analise a resposta certa em cima.</p><br>";
+        echo  "<p class='erro'>✖ Ops, você errou a questão 5. Analise a resposta certa em cima.</p><br>";
     }
     
     echo "<h1>Acertos: $result</h1>";
@@ -146,14 +146,14 @@ body{
     font-size: 28px;
     background-color: #b6cbe7ff;
 }
-legend 
+@import url('https://fonts.google.com/specimen/Vend+Sans?categoryFilters=Feeling:%2FExpressive%2FCalm');
+    legend 
 {
     font-family: Vend-Sans;
     font-size: 50px;
-    background-color: rgb(182, 148, 214, 0.6); 
+    background-color: rgb(182, 148, 214, 0.6);
     border-radius: 15px;
     font-weight: bold;
-    animation: piscarsuave 3s infinite;
 }
 p{
   font-size: 30px;
@@ -165,14 +165,6 @@ fieldset{
     width: 65%;
     margin: 0 auto;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-}
-@keyframes piscarsuave {
-  5%   { background-color: rgba(182, 148, 214, 0.6); }
-  25%  { background-color: rgba(228, 9, 111, 0.7); }
-  50% {background-color: rgba(228, 9, 38, 0.7); }
-  75% {background-color: rgba(177, 82, 206, 0.7); }
-  100%   { background-color: rgba(182, 148, 214, 1); }
-    
 }
 input[type="submit"]
 {
@@ -190,13 +182,27 @@ background-color: rgba(37, 185, 24, 0.479);
 }
 input[type="submit"]:hover
 {
-	 background-color:  rgb(194, 210, 175, 0.6); /* ✅ rgb → rgba */
+	 background-color:  rgb(194, 210, 175, 0.6); 
 	 transform: scale(1.05);
 }
 h1
 {
    text-align: center;
    font-size: 20px;
+}
+.erro
+{
+	background-color: rgba(189, 2, 2, 0.7);
+	color: black;	
+    border-radius: 15px;
+	font-weight: bold;
+}
+.acerto
+{
+    background-color: rgba(13, 148, 13, 0.6);
+	color: black;	
+    border-radius: 15px;
+	font-weight: bold;
 }
 </style> 
 

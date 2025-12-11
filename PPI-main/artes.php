@@ -25,51 +25,51 @@ echo "<p> Artes:</p>";
     if ($a1==1)
     {
         $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 1!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 1!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 1. Vamos analisar a resposta certa</p><br>";
+        echo  "<p class='erro'>✖ Ops, você errou a questão 1. Vamos analisar a resposta certa</p><br>";
     }
     
     $a2= $_GET ["a2"];
     if ($a2==1)
     {
          $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 2!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 2!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa</p><br>";
+        echo  "<p class='erro'>✖ Ops, você errou a questão 2. Vamos analisar a resposta certa</p><br>";
     }
     $a3= $_GET ["a3"];
     if ($a3==1){
 
      $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 3!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 3!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 3. Vamos analisar a resposta certa</p><br>";
+        echo  "<p class='erro'>✖ Ops, você errou a questão 3. Vamos analisar a resposta certa</p><br>";
     }
     $a4= $_GET ["a4"];
     if ($a4==1)
     {
     $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 4!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 4!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 4. Vamos analisar a resposta certa</p><br>";
+        echo  "<p class='erro'>✖ Ops, você errou a questão 4. Vamos analisar a resposta certa</p><br>";
     }
     $a5= $_GET ["a5"];
     if ($a5==1)
     { $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 5!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 5!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 5. Vamos analisar a resposta certa</p><br>";
+        echo  "<p class='erro'>✖ Ops, você errou a questão 5. Vamos analisar a resposta certa</p><br>";
     }
     echo "<h1>Acertos: $result</h1>";
 }
@@ -87,7 +87,6 @@ body{
     background-color: rgb(182, 148, 214, 0.6);
     border-radius: 15px;
     font-weight: bold;
-    animation: piscarsuave 3s infinite;
 }
 p{
   font-size: 30px;
@@ -99,14 +98,6 @@ fieldset{
     width: 65%;
     margin: 0 auto;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-}
-@keyframes piscarsuave {
-  5%   { background-color: rgba(182, 148, 214, 0.6); }
-  25%  { background-color: rgba(228, 9, 111, 0.7); }
-  50% {background-color: rgba(228, 9, 38, 0.7); }
-  75% {background-color: rgba(177, 82, 206, 0.7); }
-  100%   { background-color: rgba(182, 148, 214, 1); }
-    
 }
 input[type="submit"]
 {
@@ -131,6 +122,20 @@ h1
 {
    text-align: center;
    font-size: 20px;
+}
+.erro
+{
+	background-color: rgba(189, 2, 2, 0.7);
+	color: black;	
+    border-radius: 15px;
+	font-weight: bold;
+}
+.acerto
+{
+    background-color: rgba(13, 148, 13, 0.6);
+	color: black;	
+    border-radius: 15px;
+	font-weight: bold;
 }
 </style> 
 <input type="submit" value="Rebobinar">
