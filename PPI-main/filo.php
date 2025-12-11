@@ -24,17 +24,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
  D) Distribuição dicotômica do cosmos.<br>
 	Correta: Para responder esta questão, precisamos ter um conhecimento prévio sobre a principal idéia de Heráclito: “Nos mesmos rios entramos e não entramos, somos e não somos.” Esta percepção nos mostra como o mundo é mutável, e movimentado. Também dizendo que “o bem e o mal, andam lado a lado”, que o certo e o errado, estão de certa forma conectados.<br>
 E) Desordem incontornável das coisas.<br>
-	Errada: Heráclito nos mostra que o universo, por mais que confuso, possui uma ordem. <br></p>";
+	Errada: Heráclito nos mostra que o universo, por mais que confuso, possui uma ordem.</p>";
 
     $h1 = $_GET["h1"];
     if ($h1 == 1)
     {
         $result++;
-        echo "<p class='acerto'>✔ Você acertou a questão 1!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 1!</p>";
     }
     else 
     {
-        echo  "<p class='erro'>✖ Ops, você errou a questão 1. Analise a resposta certa em cima.</p><br>";
+        echo  "<p class='erro'>✖ Ops, você errou a questão 1. Analise a resposta certa em cima 👆</p>";
     }
 
     echo "<p> Questão 2. <br>
@@ -48,17 +48,17 @@ E) Desordem incontornável das coisas.<br>
 	Errada: A plutocracia não é exatamente o governo de um e sim de uma classe e para ela. A plutocracia prioriza e estabelece condições valiosas financeiramente para a classe mais rica.<br>
  E) monarquia, aristocracia e democracia.<br>
 	Correta: A monarquia exerce o governo de um, seja ele governador ou imperador, governando sozinho. A aristocracia é um governo feito por uma seletiva de pessoas entre as “melhores” da população. Por fim, a democracia é o governo do povo e para o povo, um dos seus princípios sendo a igualdade.<br>
-    <br></p>";
+    </p>";
 
     $h2 = $_GET["h2"]; 
     if ($h2 == 1)
     {
         $result++;
-        echo "<p class='acerto'>✔ Você acertou a questão 2!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 2!</p>";
     }
     else 
     {
-        echo  "<p class='erro'>✖ Ops, você errou a questão 2. Analise a resposta certa em cima.</p><br>";
+        echo  "<p class='erro'>✖ Ops, você errou a questão 2. Analise a resposta certa em cima 👆</p>";
     }
 
     echo "<p> Questão 3. <br>
@@ -72,17 +72,17 @@ D) Paradigma da racionalidade, alinhado ao modelo cartesiano de método.<br>
 Errada: O modelo cartesiano de método está ligado a resolução de problemas através da lógica e racionalidade, não envolve críticas sobre a persuasão do homem. <br>
  E) Âmbito da persuasão, análogo às críticas platônicas aos sofistas.<br>
 Correta: Esta é uma questão sobre interpretação e um mínimo conhecimento base. A reflexão 'radical' do autor sobre a arte da eloquência, ou melhor, da persuasão, limitando-se a criticar a mentira enfeitada que encanta e engana tantas pessoas. O ato de crítica também se refere às críticas platônicas aos sofistas, que espalhavam mentiras disfarçadas de conselhos para o povo, enganando-os e Platão os questionava, duvidando acerca da verdade dos seus argumentos.<br>
-<br></p>";
+</p>";
 
     $h3 = $_GET["h3"];
     if ($h3 == 1)
     {
         $result++;
-        echo "<p class='acerto'>✔ Você acertou a questão 3!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 3!</p>";
     }
     else 
     {
-        echo  "<p class='erro'>✖ Ops, você errou a questão 3. Analise a resposta certa em cima.</p><br>";
+        echo  "<p class='erro'>✖ Ops, você errou a questão 3. Analise a resposta certa em cima 👆</p>";
     }
     echo "<p> Questão 4. <br>
      A) Aplicação de meios para atingir um fim.<br>
@@ -101,17 +101,17 @@ Pode até haver,sim, parâmetros, mas não com finalidade de reconhecer uma pres
  E) Elaboração de convenções para referendar um costume.<br>
 Errada:
 Uma convenção pode ser um bom aspecto para uma sociedade, mas não com o objetivo de referendar um costume.<br>
-<br></p>";
+</p>";
 
      $h4 = $_GET["h4"]; 
     if ($h4 == 1)
     {
         $result++;
-        echo "<p class='acerto'>✔ Você acertou a questão 4!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 4!</p>";
     }
     else 
     {
-        echo  "<p class='erro'>✖ Ops, você errou a questão 4. Analise a resposta certa em cima.</p><br>";
+        echo  "<p class='erro'>✖ Ops, você errou a questão 4. Analise a resposta certa em cima 👆</p>";
     }
 
     echo "<p> Questão 5. <br>
@@ -125,17 +125,17 @@ D) Moralidade e virtudes cardeais. <br>
  	Errada: O texto não apresenta exatamente essa ideia de “virtudes cardeais”.<br>
 E) Ética e exercício do poder.<br>
 Correta:
-O texto relaciona, sim, ética e poder político <br></p>";
+O texto relaciona, sim, ética e poder político</p>";
 
      $h5 = $_GET["h5"]; 
     if ($h5 == 1)
     {
         $result++;
-        echo "<p class='acerto'>✔ Você acertou a questão 5!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 5!</p>";
     }
     else 
     {
-        echo  "<p class='erro'>✖ Ops, você errou a questão 5. Analise a resposta certa em cima.</p><br>";
+        echo  "<p class='erro'>✖ Ops, você errou a questão 5. Analise a resposta certa em cima 👆</p>";
     }
     
     echo "<h1>Acertos: $result</h1>";
