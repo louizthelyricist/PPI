@@ -24,7 +24,7 @@ echo "<legend>Gabarito</legend>";
     if ($a1==1)
     {
         $result++;
-        echo "<p class='acerto'>✔ Você acertou a questão 1!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 1!</p>";
     }
     else 
     {
@@ -37,7 +37,7 @@ Portanto, alternativa correta: A. </p>";
     if ($a2==1)
     {
          $result++;
-        echo "<p class='acerto'>✔ Você acertou a questão 2!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 2!</p>";
     }
     else 
     {
@@ -49,7 +49,7 @@ Marcel queria respostas, queria provocar o público a enxergar além do óbvio, 
     if ($a3==1){
 
      $result++;
-        echo "<p class='acerto'>✔ Você acertou a questão 3!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 3!</p>";
     }
     else 
     {
