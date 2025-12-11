@@ -75,7 +75,9 @@ Marcel queria respostas, queria provocar o público a enxergar além do óbvio, 
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 5. Vamos analisar a resposta certa:</p><br>";
+        echo  "<p class='erro'>❌ Ops, você errou a questão 5. Vamos analisar a resposta certa: <br><br>
+		O abstracionismo por ser uma arte que não retrata a realidade como uma fotografia e sim com formas, expressões, sentimentos ou racionalidades, possui as vertentes lírica e geométrica. A lírica representa emoções, a música. Já a geométrica é feita cuidadosamente, com cálculos e raciocínio para melhor interpretação da obra.<br>
+		Alternativa correta: C. </p><br>";
     }
     echo "<h1>Acertos: $result</h1>";
 }
