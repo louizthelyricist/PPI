@@ -18,11 +18,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
     if ($q1==1)
     {
         $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 1!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 1!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 1. Vamos analisar a resposta certa: <br><br>
+        echo  "<p class='erro'>✖ Ops, você errou a questão 1. Vamos analisar a resposta certa. <br><br>
 a) Flotação e decantação.<br>
 Incorreta: A flotação serve para separar misturas heterogêneas de sólidos com densidades diferentes, porém nesse caso temos uma mistura líquido-líquido heterogênea.  <br>
 <br>
@@ -44,11 +44,11 @@ $q2= $_GET ["q2"];
     if ($q2==1)
     {
          $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 2!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 2!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa:<br> <br>
+        echo  "<p class='erro'>✖ Ops, você errou a questão 2. Vamos analisar a resposta certa.<br> <br>
  Comentário: Para recapitular, devemos distinguir as partículas de água do sal.<br>
 O sal é uma composição iônica formada por Nitrogênio e Hidrogênio mais um elemento x, formando uma ligação com íons, enquanto a água é uma ligação dipolo-dipolo.<br>
 <br>
@@ -75,11 +75,11 @@ Incorreta: Não ocorre uma ligação química entre as moléculas de água e as 
     if ($q3==1)
     {
          $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 3!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 3!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 3. Vamos analisar a resposta certa:<br> <br>
+        echo  "<p class='erro'>✖ Ops, você errou a questão 3. Vamos analisar a resposta certa.<br> <br>
  Comentário: Para essa questão, podemos fazer por eliminação já que: <br>
 a) Flotação.<br>
 b) Levigação.<br>
@@ -100,11 +100,11 @@ Correta: É um método de separação de misturas sólido-líquido ou líquido-l
     if ($q4==1)
     {
          $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 4!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 4!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 4. Vamos analisar a resposta certa:<br> <br>
+        echo  "<p class='erro'>✖ Ops, você errou a questão 4. Vamos analisar a resposta certa.<br> <br>
         Comentário: Para sua resolução precisamos saber a composição do benzeno e do carvão:<br>
 Carvão: composto principalmente por carbono, é uma molécula apolar.<br>
 Benzeno:  C6H6, uma molécula apolar também. <br>
@@ -143,7 +143,6 @@ body{
     background-color: rgb(182, 148, 214, 0.6);
     border-radius: 15px;
     font-weight: bold;
-    animation: piscarsuave 3s infinite;
 }
 p{
   font-size: 30px;
@@ -155,14 +154,6 @@ fieldset{
     width: 65%;
     margin: 0 auto;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-}
-@keyframes piscarsuave {
-  5%   { background-color: rgba(182, 148, 214, 0.6); }
-  25%  { background-color: rgba(228, 9, 111, 0.7); }
-  50% {background-color: rgba(228, 9, 38, 0.7); }
-  75% {background-color: rgba(177, 82, 206, 0.7); }
-  100%   { background-color: rgba(182, 148, 214, 1); }
-    
 }
 input[type="submit"]
 {
@@ -188,7 +179,21 @@ h1
    text-align: center;
    font-size: 20px;
 }
-</style>
+.erro
+{
+	background-color: rgba(189, 2, 2, 0.7);
+	color: black;	
+    border-radius: 15px;
+	font-weight: bold;
+}
+.acerto
+{
+    background-color: rgba(13, 148, 13, 0.6);
+	color: black;	
+    border-radius: 15px;
+	font-weight: bold;
+}
+</style> 
 <input type="submit" value="Rebobinar">
 
 

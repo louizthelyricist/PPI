@@ -18,11 +18,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
     if ($m1==1)
     {
         $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 1!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 1!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 1. Vamos analisar a resposta certa. <br> <br>
+        echo  "<p class='erro'>✖ Ops, você errou a questão 1. Vamos analisar a resposta certa. <br> <br>
         O valor do uber se concentra em 3 variáveis: F (taxa fixa); T (tempo da corrida) e D (distância percorrida). <br>
 O exercício contém 3 valores associados às variáveis: $2,00 como taxa fixa; $0,40 por minuto de viagem e $1,40 por quilômetro rodado.
 Porém, somente 2 desses valores dependem das variáveis: o tempo e a distância. Já a taxa fixa já é dada na sua totalidade. <br>
@@ -34,11 +34,11 @@ Alternativa correta: B </p>";
     if ($m2==1)
     {
         $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 2!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 2!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa. <br> <br>
+        echo  "<p class='erro'>✖ Ops, você errou a questão 2. Vamos analisar a resposta certa. <br> <br>
         A questão apresenta a informação de que de possui x funcionários, um deles sendo o gerente. Também destaca os salários, dessa maneira: <br>
 Funcionários x: 2 diárias de R$80,00 por semana; <br>
 Salário do gerente por semana: R$1000,00. <br>
@@ -53,11 +53,11 @@ Alternativa correta: D. <br></p>";
     if ($m3==1)
     {
         $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 3!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 3!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 3. Vamos analisar a resposta certa:<br><br>
+        echo  "<p class='erro'>✖ Ops, você errou a questão 3. Vamos analisar a resposta certa<br><br>
         Lembrando da conversão de unidades: 1m³=1000L <br>
 Faremos uma regra de três, para saber quantos litros são necessários para enchermos uma banheira de 0,3m³ <br>
 1000L = 1m³ <br>
@@ -77,11 +77,11 @@ Alternativa correta: D </p>";
     if ($m4==1)
     {
         $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 4!</p><br>";
+        echo "<p class='acerto'>✖ Você acertou a questão 4!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 4. Vamos analisar a resposta certa:<br><br>
+        echo  "<p class='erro'>✖ Ops, você errou a questão 4. Vamos analisar a resposta certa<br><br>
         a equação é INVERSAMENTE PROPORCIONAL, então usaremos uma razão com cada k acampanhando cada uma das máquinas e usando o valor total das 3 como referência: <br>
           K/2+K/3+K/5=31.000 <br> Com ela montada, multiplicando os 3 valores, obtemos o valor do denominador da nossa equação, 30. Individuallmente, dividimos cada um deles por 30 e multiplicamos pelo k. <br>
           15K+10K+6K/30=31.000  <br> Agora si, os somamos porém mantendo o 30.  31K/30=31.000. <br>
@@ -96,11 +96,11 @@ Alternativa correta: D </p>";
     if ($m5==1)
     {
         $result++;
-        echo "<p class='acerto'>✅ Você acertou a questão 5!</p><br>";
+        echo "<p class='acerto'>✔ Você acertou a questão 5!</p><br>";
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 5. Vamos analisar a resposta certa:<br><br>
+        echo  "<p class='erro'>✖ Ops, você errou a questão 5. Vamos analisar a resposta certa<br><br>
 Para a resolução da questão, precisamos identificar a porcentagem que devemos fazer e, 
 interpretar se precisaremos, apenas mostrar a porcentagem, descontar ou aumentar no
 valor. <br>
@@ -130,7 +130,6 @@ body{
     background-color: rgb(182, 148, 214, 0.6);
     border-radius: 15px;
     font-weight: bold;
-    animation: piscarsuave 3s infinite;
 }
 p{
   font-size: 30px;
@@ -142,14 +141,6 @@ fieldset{
     width: 65%;
     margin: 0 auto;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-}
-@keyframes piscarsuave {
-  5%   { background-color: rgba(182, 148, 214, 0.6); }
-  25%  { background-color: rgba(228, 9, 111, 0.7); }
-  50% {background-color: rgba(228, 9, 38, 0.7); }
-  75% {background-color: rgba(177, 82, 206, 0.7); }
-  100%   { background-color: rgba(182, 148, 214, 1); }
-    
 }
 input[type="submit"]
 {
@@ -175,8 +166,21 @@ h1
    text-align: center;
    font-size: 20px;
 }
-
-</style>
+.erro
+{
+	background-color: rgba(189, 2, 2, 0.7);
+	color: black;	
+    border-radius: 15px;
+	font-weight: bold;
+}
+.acerto
+{
+    background-color: rgba(13, 148, 13, 0.6);
+	color: black;	
+    border-radius: 15px;
+	font-weight: bold;
+}
+</style> 
 <input type="submit" value="Rebobinar">
 </fieldset>
 </form>
