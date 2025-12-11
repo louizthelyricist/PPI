@@ -53,7 +53,9 @@ Marcel queria respostas, queria provocar o público a enxergar além do óbvio, 
     }
     else 
     {
-        echo  "<p class='erro'>✖ Ops, você errou a questão 3. Vamos analisar a resposta certa:</p>";
+        echo  "<p class='erro'>✖ Ops, você errou a questão 3. Vamos analisar a resposta certa: </p>
+		<p>  As máscaras africanas foram o alvo de estudo de Picasso para incorporar nessa obra. Essas máscaras eram ligadas a rituais espirituais e culturais de povos africanos e sua estética desafiou de fato a sociedade. <br>
+		Alternativa correta: A. </p>";
     }
     $a4= $_GET ["a4"];
     if ($a4==1)
@@ -75,7 +77,9 @@ Marcel queria respostas, queria provocar o público a enxergar além do óbvio, 
     }
     else 
     {
-        echo  "<p class='erro'>✖ Ops, você errou a questão 5. Vamos analisar a resposta certa</p>";
+        echo  "<p class='erro'>✖ Ops, você errou a questão 5. Vamos analisar a resposta certa</p>
+		<p> O abstracionismo por ser uma arte que não retrata a realidade como uma fotografia e sim com formas, expressões, sentimentos ou racionalidades, possui as vertentes lírica e geométrica. A lírica representa emoções, a música. Já a geométrica é feita cuidadosamente, com cálculos e raciocínio para melhor interpretação da obra.
+		</p>";
     }
     echo "<h1>Acertos: $result</h1>";
 }
