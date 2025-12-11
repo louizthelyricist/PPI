@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 1. Vamos analisar a resposta certa. <br><br>
+        echo  "<p class='erro'>❌ Ops, você errou a questão 1. Vamos analisar a resposta certa: <br><br>
 a) Flotação e decantação.<br>
 Incorreta: A flotação serve para separar misturas heterogêneas de sólidos com densidades diferentes, porém nesse caso temos uma mistura líquido-líquido heterogênea.  <br>
 <br>
@@ -48,7 +48,7 @@ $q2= $_GET ["q2"];
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa.<br> <br>
+        echo  "<p class='erro'>❌ Ops, você errou a questão 2. Vamos analisar a resposta certa:<br> <br>
  Comentário: Para recapitular, devemos distinguir as partículas de água do sal.<br>
 O sal é uma composição iônica formada por Nitrogênio e Hidrogênio mais um elemento x, formando uma ligação com íons, enquanto a água é uma ligação dipolo-dipolo.<br>
 <br>
@@ -79,7 +79,7 @@ Incorreta: Não ocorre uma ligação química entre as moléculas de água e as 
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 3. Vamos analisar a resposta certa.<br> <br>
+        echo  "<p class='erro'>❌ Ops, você errou a questão 3. Vamos analisar a resposta certa:<br> <br>
  Comentário: Para essa questão, podemos fazer por eliminação já que: <br>
 a) Flotação.<br>
 b) Levigação.<br>
@@ -104,7 +104,7 @@ Correta: É um método de separação de misturas sólido-líquido ou líquido-l
     }
     else 
     {
-        echo  "<p class='erro'>❌ Ops, você errou a questão 4. Vamos analisar a resposta certa.<br> <br>
+        echo  "<p class='erro'>❌ Ops, você errou a questão 4. Vamos analisar a resposta certa:<br> <br>
         Comentário: Para sua resolução precisamos saber a composição do benzeno e do carvão:<br>
 Carvão: composto principalmente por carbono, é uma molécula apolar.<br>
 Benzeno:  C6H6, uma molécula apolar também. <br>
