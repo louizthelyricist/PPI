@@ -1,13 +1,12 @@
 body
 {
   margin: 0;
-  background-color: #5f5f55;
+  background-color: #0F1C2E;
 }
-
 @import url('https://fonts.google.com/specimen/Audiowide?categoryFilters=Feeling:%2FExpressive%2FFuturistic');
 button
 {
-    background-color: rgba(252, 252, 252,);
+    background-color: #EAF5FF;
     border-radius: 10px;
     transition: 0.3s;
     padding: 10px 20px;
@@ -18,11 +17,9 @@ button
 .container {
   display: flex;
   flex-direction: column;
-  gap: 80px;
   align-items: center;
   padding-top: 200px; 
   height: 50vh;
-  margin-top: 60px;
 }
  .botoes
 {
@@ -30,46 +27,48 @@ button
   flex-direction: column;
   gap: 10px;
   position: absolute;
-  top: 520px;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 450px;
+  width: 550px;
+  height: 250px;
 }
 fieldset {
-  width: 500px;
-  height: 400px;
-  background-color: rgba(85, 85, 85, 0.705);
-  border: 2px solid rgba(255, 255, 255, 0.10);
+  width: 600px;
+  height: 800px;
+  background-color: #394B5A;
   border-radius: 20px;
   text-align: center; 
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+  box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.99);  
 }
 .btn {
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 15px;
-  font-size: 1px;
+  font-size: 4px;
   transition: background 0.3s;
-  
+
 }
 h1
-{  
-  width: 500px;
-  height: 50px;
+{ 
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 55px;
   background-color: white;
   border-radius: 20px;
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.75); 
 }
-
 .botoes a {
   width: 100%;
-  height: 40px;
   display: block;
-  
 }
 .botoes button {
   width: 100%;
+  height: 70px;
 }
 button:hover
 {

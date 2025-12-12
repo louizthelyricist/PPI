@@ -1,17 +1,18 @@
 body{
 	font-size: 28px;
 	font-family: Vend-Sans;
-	background-color: #C2D2AF;
+	background-color: #8f9aa5;
 }
 @import url('https://fonts.googleapis.com/css2?family=Vand+Sans:wght@400;700&display=swap');
 	legend 
 {
 	font-family: Vend-Sans;
 	font-size: 50px;
-	background-color: rgb(182, 148, 214, 0.6);
+	background-color: #0F1C2E;
 	border-radius: 15px;
 	font-weight: bold;
-	margin-bottom: 25px
+	margin-bottom: 25px;
+	color: white;
 }
 p{
   font-size: 25px;
@@ -36,18 +37,10 @@ h3
 	margin: auto;
 	font-size: 35px;
 }
-h1
-{
-	background-color: rgb(182, 148, 214, 0.6);
-	
-}
-      
 .central
 {
 	text-align: center;
 }
-
-
 .container
 {
 	text-align: center;
@@ -55,10 +48,10 @@ h1
 	margin: 0;
 
 }
-@import url('https://fonts.google.com/specimen/Vend+Sans?categoryFilters=Feeling:%2FExpressive%2FCalm');
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
 .h
 {
-	font-family: Vend-Sans ;
+	font-family: 'Sekuya', sans-serif;
 	display: flex;
   	flex-direction: column;
   	align-items: center;
@@ -98,10 +91,39 @@ input[type="submit"]:hover
 	 background-color:  rgb(194, 210, 175, 0.6); 
 	 transform: scale(1.05);
 }
-input[type="radio"]
-{
-accent-color: rgba(255, 0, 179, 0.6);
-font-weight: normal;
+input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.6);
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+
+input[type="radio"]::after {
+    content: "✔";
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+
+input[type="radio"]:checked {
+    background-color: rgba(0, 0, 0, 0.6);
+    transform: scale(1.1);
+}
+
+
+input[type="radio"]:checked::after {
+    opacity: 1;
 }
 label
 {
@@ -112,9 +134,8 @@ label:hover
 	font-weight: bold;
 	font-style: italic;
 }
-label:has(input[type="radio"]:checked) 
-{
-  font-weight: bold;
+label:has(input[type="radio"]:checked) {
+    font-weight: bold;
 }
 .centro
 {
@@ -124,6 +145,7 @@ label:has(input[type="radio"]:checked)
 p
 {
 	text-align: left;
+
 }
 .q2
 {
@@ -133,5 +155,5 @@ p
 {
 	width: 400px;
 	height: auto;
-
 }
+

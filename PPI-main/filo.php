@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Filosofia</title>
     <link rel="stylesheet" href="css">
 </head>
 <body>
@@ -137,7 +137,7 @@ O texto relaciona, sim, ética e poder político</p>";
     {
         echo  "<p class='erro'>✖ Ops, você errou a questão 5. Analise a resposta certa em cima 👆</p>";
     }
-
+    echo "Acertos: $results"
 }
 ?>
 <style>
