@@ -82,6 +82,7 @@ Marcel queria respostas, queria provocar o público a enxergar além do óbvio, 
 		</p>";
     }
     echo "<h1>Acertos: $result</h1>";
+    
 }
 ?>
 <style>

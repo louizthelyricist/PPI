@@ -22,8 +22,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
     }
     else 
     {
-        echo  "<p class='erro'>✖ Ops, você errou a questão 1. Vamos analisar a resposta certa. <br> <br>
-        O valor do uber se concentra em 3 variáveis: F (taxa fixa); T (tempo da corrida) e D (distância percorrida). <br>
+        echo  "<p class='erro'>✖ Ops, você errou a questão 1. Vamos analisar a resposta certa.</p>
+       <p> O valor do uber se concentra em 3 variáveis: F (taxa fixa); T (tempo da corrida) e D (distância percorrida). <br>
 O exercício contém 3 valores associados às variáveis: $2,00 como taxa fixa; $0,40 por minuto de viagem e $1,40 por quilômetro rodado.
 Porém, somente 2 desses valores dependem das variáveis: o tempo e a distância. Já a taxa fixa já é dada na sua totalidade. <br>
 Montando a equação, ficaria:<br>
@@ -38,8 +38,8 @@ Alternativa correta: B </p>";
     }
     else 
     {
-        echo  "<p class='erro'>✖ Ops, você errou a questão 2. Vamos analisar a resposta certa. <br> <br>
-        A questão apresenta a informação de que de possui x funcionários, um deles sendo o gerente. Também destaca os salários, dessa maneira: <br>
+        echo  "<p class='erro'>✖ Ops, você errou a questão 2. Vamos analisar a resposta certa.</p>
+        <p>A questão apresenta a informação de que de possui x funcionários, um deles sendo o gerente. Também destaca os salários, dessa maneira: <br>
 Funcionários x: 2 diárias de R$80,00 por semana; <br>
 Salário do gerente por semana: R$1000,00. <br>
 A questão pergunta quanto a empresa terá que pagar seus funcionários em 1 semana. <br>
@@ -47,7 +47,7 @@ Sabemos que todos recebem R$160,00 por semana. <br>
 O gerente, ao todo, ganha R$1000,00, porém contando com as suas diárias. Ou seja, ele ganha R$840,00 mais R$160 das suas diárias. <br>
 O valor total de que a empresa os paga em uma semana se dá pela seguinte fórmula:  <br>
 Y= 160x + 840. <br> 
-Alternativa correta: D. <br></p>";
+Alternativa correta: D. </p>";
     }
      $m3= $_GET ["m3"];
     if ($m3==1)
@@ -57,8 +57,8 @@ Alternativa correta: D. <br></p>";
     }
     else 
     {
-        echo  "<p class='erro'>✖ Ops, você errou a questão 3. Vamos analisar a resposta certa<br><br>
-        Lembrando da conversão de unidades: 1m³=1000L <br>
+        echo  "<p class='erro'>✖ Ops, você errou a questão 3. Vamos analisar a resposta certa</p>
+        <p>Lembrando da conversão de unidades: 1m³=1000L <br>
 Faremos uma regra de três, para saber quantos litros são necessários para enchermos uma banheira de 0,3m³ <br>
 1000L = 1m³ <br>
   X      = 0,3m³ <br>
@@ -81,9 +81,9 @@ Alternativa correta: D </p>";
     }
     else 
     {
-        echo  "<p class='erro'>✖ Ops, você errou a questão 4. Vamos analisar a resposta certa<br><br>
-        a equação é INVERSAMENTE PROPORCIONAL, então usaremos uma razão com cada k acampanhando cada uma das máquinas e usando o valor total das 3 como referência: <br>
-          K/2+K/3+K/5=31.000 <br> Com ela montada, multiplicando os 3 valores, obtemos o valor do denominador da nossa equação, 30. Individuallmente, dividimos cada um deles por 30 e multiplicamos pelo k. <br>
+        echo  "<p class='erro'>✖ Ops, você errou a questão 4. Vamos analisar a resposta certa</p>
+        <p>a equação é INVERSAMENTE PROPORCIONAL, então usaremos uma razão com cada k acampanhando cada uma das máquinas e usando o valor total das 3 como referência: <br>
+          K/2+K/3+K/5=31.000 <br> Com ela montada, multiplicando os 3 valores, obtemos o valor do denominador da nossa equação, 30. Individualmente, dividimos cada um deles por 30 e multiplicamos pelo k. <br>
           15K+10K+6K/30=31.000  <br> Agora si, os somamos porém mantendo o 30.  31K/30=31.000. <br>
           Isolando o k, obtemos uma multiplicação: 31K=31.000*30  -->  31K=930.000 -->   K=930.000/31 -->  K=30.000. <br>
           Agora que já resolvemos metade da questão, vamos para a resolução: <br>
@@ -100,9 +100,9 @@ Alternativa correta: D </p>";
     }
     else 
     {
-        echo  "<p class='erro'>✖ Ops, você errou a questão 5. Vamos analisar a resposta certa<br><br>
-Para a resolução da questão, precisamos identificar a porcentagem que devemos fazer e, 
-interpretar se precisaremos, apenas mostrar a porcentagem, descontar ou aumentar no
+        echo  "<p class='erro'>✖ Ops, você errou a questão 5. Vamos analisar a resposta certa</p>
+<p>Para a resolução da questão, precisamos identificar a porcentagem que devemos fazer.
+Interpretar se precisaremos apenas mostrar a porcentagem, descontar ou aumentar no
 valor. <br>
 Neste caso, teremos de fazer um aumento, pois pede o peso máximo que a mala deve
 ter, para não exceder o limite. Então seria um aumento de 8% ( margem de erro da
@@ -112,7 +112,7 @@ Podemos simplificar a porcentagem fazendo 23 multiplicado por 0,8( 8/100).<br>
 Agora, o que nos resta é somar esta porcentagem ao valor inicial.<br>
 23+1,84= 24,84. <br>
 O que nos leva a marcar a alternativa correta: D.
-        <br></p>";
+        </p>";
     }
         echo "<h1> Acertos: $result </h1><br>";
 }
