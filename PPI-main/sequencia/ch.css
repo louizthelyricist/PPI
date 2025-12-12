@@ -115,7 +115,6 @@ input[type="radio"]::after {
     transition: 0.2s;
 }
 
-
 input[type="radio"]:checked {
     background-color: rgba(0, 0, 0, 0.6);
     transform: scale(1.1);
