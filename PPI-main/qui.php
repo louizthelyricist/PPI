@@ -128,7 +128,7 @@ Incorreta: Somente ocorre em moléculas polares.<br>
 <br>
 </p>";
     }
-        echo "<h1> Acertos de química: $result </h1>";
+        echo "<h1 class='h'> Acertos de química: $result </h1>";
 }
 echo "<h1 class='h'> Física </h1>";
 {
@@ -281,7 +281,7 @@ Alternativa correta: E.
 </p>";
      }
     }
-    echo "<h1> Acertos de Fìsica: $result </h1>";
+    echo "<h1 class='h'> Acertos de Fìsica: $result </h1>";
 ?>
 <style>
 body{

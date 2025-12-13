@@ -114,7 +114,7 @@ Agora, o que nos resta é somar esta porcentagem ao valor inicial.<br>
 O que nos leva a marcar a alternativa correta: D.
         </p>";
     }
-        echo "<h1> Acertos: $result </h1><br>";
+        echo "<h1 class='h'> Acertos: $result </h1><br>";
 }
 ?>
 <style>
