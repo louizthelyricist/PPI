@@ -137,7 +137,7 @@ O texto relaciona, sim, ética e poder político</p>";
     {
         echo  "<p class='erro'>✖ Ops, você errou a questão 5. Analise a resposta certa em cima 👆</p>";
     }
-    echo "Acertos: $results"
+    echo "<h1 class='h'>Acertos: $result</h1>";
 }
 ?>
 <style>

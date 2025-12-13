@@ -8,8 +8,9 @@
 <body>
     <form method="get" action="index.html">
     <fieldset>
-
+    
 <?php
+echo "<h1 class='h'> Química </h1>";
 if ($_SERVER['REQUEST_METHOD'] == 'GET')
     $result= 0;
 {
@@ -127,8 +128,9 @@ Incorreta: Somente ocorre em moléculas polares.<br>
 <br>
 </p>";
     }
-        echo "<h1> Acertos: $result </h1>";
+        echo "<h1> Acertos de química: $result </h1>";
 }
+echo "<h1 class='h'> Física </h1>";
 {
     $f1= $_GET ["f1"];
     if ($f1==1)
@@ -141,7 +143,7 @@ Incorreta: Somente ocorre em moléculas polares.<br>
         echo  "<p class='erro'>✖ Ops, você errou a questão 1. Vamos analisar a resposta certa:</p>
 		 <p>
     Primeira coisa que devemos fazer é calcular a força peso do bloco B e decompor os vetores do corpo A. </p>
-   <p class="central"> <img src="i1.png" alt="imagem central"></p> <br>
+   <p class='central'> <img src='i1.png' alt='imagem central'></p> <br>
        <p> P=m.g <br>
 Pb=15Kg.10m/s²=150 N<br>
 CO=PaX<br>
@@ -237,7 +239,7 @@ Bom, já sabendo deste valor, conseguimos pressupor que a energia mínima que a 
         echo  "<p class='erro'>✖ Ops, você errou a questão 4. Vamos analisar a resposta certa:</p>
 		 <p> Logo, podemos assimilar que por ser uma lâmpada não pode se mover, então Fr=0. <br>
 Decomponha T2 em seus devidos eixos. </p>
- <p class="central"> <img src="i2.png" alt="imagem central"></p> <br>
+ <p class='central'> <img src='i2.png' alt='imagem central'></p> <br>
 <p> CO=T2Y <br> 
 CA=T2X <br> 
 HIP=T2 <br> 
@@ -267,7 +269,7 @@ $f5= $_GET ["f5"];
 g=10m/s² <br>
 F=50N. <br>
 Agora, devemos fazer um diagrama de forças para nos orientarmos melhor. Assim descobrindo que possuímos no sistema: Força Peso, F, e Normal de contato (o que já nos responde uma parte da questão). <br> </p>
- <p class="central"> <img src="i3.png" alt="imagem central"></p> <br>
+ <p class='central'> <img src='i3.png' alt='imagem central'></p> <br>
  <p> Nosso próximo passo é fazer o cálculo da força peso: <br>
 P=m.g <br>
 P=5Kg.10m/s² - P=50N <br>
@@ -278,8 +280,8 @@ N=0. <br>
 Alternativa correta: E.
 </p>";
      }
-
-}
+    }
+    echo "<h1> Acertos de Fìsica: $result </h1>";
 ?>
 <style>
 body{
