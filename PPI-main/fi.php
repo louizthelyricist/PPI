@@ -131,7 +131,7 @@ h1
 }
 .central
 {
-    text-align: center;
+    text-allign: center;
 }
 </style> 
 <fieldset>
