@@ -150,7 +150,7 @@ body{
 {
     font-family: Vend-Sans;
     font-size: 50px;
-    background-color: rgba(93, 146, 221, 1);
+    background-color: rgba(93, 146, 221, 0.6);
     border-radius: 15px;
     font-weight: bold;
 }
