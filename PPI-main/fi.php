@@ -21,9 +21,9 @@ $q4= $_GET ["q4"];
         <p> Considerando que o sistema está em movimento retilíneo, descubra o coeficiente de atrito de A.</p>
                 <label> <input type="radio" name="f1" value="0" required> A) μ≈0.20<br></label>
                 <label> <input type="radio" name="f1" value="1"> B) μ≈1,2<br></label>
-                <label> <input type="radio" name="f1" value="0"> C) μ≈0.50<br></label>
-                <label> <input type="radio" name="f1" value="0"> D) μ≈0.86<br></label>
-                <label> <input type="radio" name="f1" value="0"> E) μ≈1.80 </label>
+                <label> <input type="radio" name="f1" value="0"> C) μ≈0,50<br></label>
+                <label> <input type="radio" name="f1" value="0"> D) μ≈0,86<br></label>
+                <label> <input type="radio" name="f1" value="0"> E) μ≈1,80 </label>
 </fieldset>
 <fieldset>
     <legend> Questão 2 </legend>
