@@ -74,8 +74,8 @@ display: flex;
 }
 input[type="submit"]
 {
-background-color: rgba(37, 185, 24, 0.479);
-  color: rgb(0, 0, 0);              
+background-color: rgb(9, 57, 189);
+  color: rgb(255, 255, 255);              
   border: none;              
   padding: 20px 350px;        
   border-radius: 20px;        
@@ -88,7 +88,7 @@ background-color: rgba(37, 185, 24, 0.479);
 }
 input[type="submit"]:hover
 {
-	 background-color:  rgb(194, 210, 175, 0.6); 
+	 background-color:  rgba(8, 61, 209, 0.623); 
 	 transform: scale(1.05);
 }
 input[type="radio"] {
