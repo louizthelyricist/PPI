@@ -98,11 +98,13 @@ body{
 @import url('https://fonts.google.com/specimen/Vend+Sans?categoryFilters=Feeling:%2FExpressive%2FCalm');
     legend 
 {
-    font-family: Vend-Sans;
-    font-size: 50px;
-background-color: rgba(93, 146, 221, 0.6);
-    border-radius: 15px;
-    font-weight: bold;
+	font-family: Vend-Sans;
+	font-size: 50px;
+	background-color: #0F1C2E;
+	border-radius: 15px;
+	font-weight: bold;
+	margin-bottom: 25px;
+	color: white;
 }
 p{
   font-size: 30px;
