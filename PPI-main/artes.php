@@ -11,7 +11,7 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'GET')
     $result= 0;
-{
+
     {
 $a1 = $_GET ["a1"];
 $a2 = $_GET ["a2"];
@@ -19,7 +19,7 @@ $a3 = $_GET ["a3"];
 $a4 = $_GET ["a4"];
 $a5 = $_GET ["a5"];
 echo "<legend>Gabarito</legend>";
-}
+
     $a1= $_GET ["a1"];
     if ($a1==1)
     {
@@ -29,7 +29,7 @@ echo "<legend>Gabarito</legend>";
     else 
     {
         echo  "<p class='erro'>✖ Ops, você errou a questão 1. Vamos analisar a resposta certa:<p>
-		<p>Freud analisou efeitos do consciente e do inconsciente, como delírios,  sonhos e traumas. A vanguarda que utiliza alguns dos seus conceitos é o Surrealismo,  retratando em suas obras o inconsciente através de sonhos e delírios.<br> 
+        <p>Freud analisou efeitos do consciente e do inconsciente, como delírios,  sonhos e traumas. A vanguarda que utiliza alguns dos seus conceitos é o Surrealismo,  retratando em suas obras o inconsciente através de sonhos e delírios.<br> 
 Portanto, alternativa correta: A. </p>";
     }
     

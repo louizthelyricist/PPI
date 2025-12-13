@@ -129,6 +129,157 @@ Incorreta: Somente ocorre em moléculas polares.<br>
     }
         echo "<h1> Acertos: $result </h1>";
 }
+{
+    $f1= $_GET ["f1"];
+    if ($f1==1)
+    {
+        $result++;
+        echo "<p class='acerto'>✔ Você acertou a questão 1!</p>";
+    }
+    else 
+    {
+        echo  "<p class='erro'>✖ Ops, você errou a questão 1. Vamos analisar a resposta certa:</p>
+		 <p>
+    Primeira coisa que devemos fazer é calcular a força peso do bloco B e decompor os vetores do corpo A. </p>
+   <p class="central"> <img src="i1.png" alt="imagem central"></p> <br>
+       <p> P=m.g <br>
+Pb=15Kg.10m/s²=150 N<br>
+CO=PaX<br>
+CA=PaY<br>
+HIP=P<br>
+Cosθ= PaY/P<br>
+Senθ= PaX/P<br>
+PaY = cos 30° . hipotenusa = 50 √3 N  <br>
+PaX = sen 30° .hipotenusa = 50N   <br>
+PaY = N  <br>
+√3 ≈ 1.73 <br>
+Agora vamos analisar o diagrama de forças  <br>
+Fat = μ.N      <br>
+Fra=T-Pax-Fat <br>
+Frb=Pb-T      <br>
+Fr=Pb-Pax-Fat    <br>
+movimento retilíneo = aceleração 0 <br>
+0.(Ma + Mb) = Pb-Pax-Fat <br>
+Fat = Pb - Pax <br>
+Fat = 150N - 50√3N <br>
+Neste ponto, vamos calcular a Fat. <br>
+Fat = 150N - 86,5N <br>
+Fat = 63,5 <br>
+63,5N= 50N . μ <br>
+63,5N/50N = μ <br>
+μ ≈ 1,2. Alternativa correta: B. </p>";
+    }
+
+   $f2= $_GET ["f2"];
+    if ($f2==1)
+    {
+        $result++;
+        echo "<p class='acerto'>✔ Você acertou a questão 2!</p>";
+    }
+    else 
+    {
+        echo  "<p class='erro'>✖ Ops, você errou a questão 2. Vamos analisar a resposta certa:</p>
+		 <p>
+    Para calcularmos a sua distância devemos lembrar da equação —> W = F . d . cos θ  <br>
+   onde: W= trabalho; <br>
+   F= força aplicada; <br>
+   d= distância; <br>
+   θ= angulação. <br>
+   substituindo os valores temos: <br>
+   800J = 50N . d . cos 45°   <br>
+   800J = 50N . √2 / 2 . d <br>
+   2 . 800J = 50N . √2 . d  <br>
+   √2 ≈ 1,4<br>
+   1600J = 50N . 1,4 . d <br>
+   1600J = 70 . d <br>
+   1600J/ 70 = d <br>
+   d = 22, 85 m (despreze a parte fracionária) --> d=22m <br>
+   Alternativa correta: D. 
+   </p>";
+    }
+
+
+ $f3= $_GET ["f3"];
+    if ($f3==1)
+    {
+        $result++;
+        echo "<p class='acerto'>✔ Você acertou a questão 3!</p>";
+    }
+    else 
+    {
+        echo  "<p class='erro'>✖ Ops, você errou a questão 3. Vamos analisar a resposta certa:</p>
+		 <p>
+    Nosso primeiro passo, é ponderarmos como sabemos a energia mínima necessária.<br>
+	Podemos fazer isso, sabendo a Energia Potencial gravitacional da rampa<br>
+lembre-se: Epg= m.g.h <br>
+	Epg=5kg.10m/s².5m <br>
+	Epg=250J.<br>
+Bom, já sabendo deste valor, conseguimos pressupor que a energia mínima que a mola precisa ter, é a mesma que a rampa possui. Então, Epel=Epg. <br>
+	Agora, já temos o valor da Epel, para sabermos a deformação mínima da mola, precisamos apenas “substituir letrinhas”. <br>
+	Epel= KX²/2 <br>
+	250J=20N/m.X²/2<br>
+250J=10N/m.X² <br>
+	250J/10N/m=X² <br>
+	25m=X² <br>
+	√25m=X² <br>
+5m=X. Alternativa correta: B.
+</p>";
+    }
+
+    $f4= $_GET ["f4"];
+    if ($f4==1)
+    {
+        $result++;
+        echo "<p class='acerto'>✔ Você acertou a questão 4!</p>";
+    }
+    else 
+    {
+        echo  "<p class='erro'>✖ Ops, você errou a questão 4. Vamos analisar a resposta certa:</p>
+		 <p> Logo, podemos assimilar que por ser uma lâmpada não pode se mover, então Fr=0. <br>
+Decomponha T2 em seus devidos eixos. </p>
+ <p class="central"> <img src="i2.png" alt="imagem central"></p> <br>
+<p> CO=T2Y <br> 
+CA=T2X <br> 
+HIP=T2 <br> 
+Cosθ= T2X/T2 <br>
+Senθ= T2Y/T2 <br>
+Para conseguirmos continuar, precisamos fazer algumas relações. Se Fr=0, todas as forças devem se anular. Então T1=T2x e T2Y=P. <br>
+T2 . senθ = P <br>
+T2.senθ=m.g <br>
+Agora basta isolar T2 <br>
+T2 = m . g/senθ <br>
+Alternativa correta: B.
+</p>";
+    }
+
+$f5= $_GET ["f5"];
+    if ($f5==1)
+    {
+        $result++;
+        echo "<p class='acerto'>✔ Você acertou a questão 5!</p>";
+    }
+    else 
+    {
+        echo  "<p class='erro'>✖ Ops, você errou a questão 5. Vamos analisar a resposta certa:</p>
+		 <p> A primeira coisa que devemos analisar, são as informações que a questão nos concede: 
+ </p>
+<p> m=5kg <br>
+g=10m/s² <br>
+F=50N. <br>
+Agora, devemos fazer um diagrama de forças para nos orientarmos melhor. Assim descobrindo que possuímos no sistema: Força Peso, F, e Normal de contato (o que já nos responde uma parte da questão). <br> </p>
+ <p class="central"> <img src="i3.png" alt="imagem central"></p> <br>
+ <p> Nosso próximo passo é fazer o cálculo da força peso: <br>
+P=m.g <br>
+P=5Kg.10m/s² - P=50N <br>
+Analisando novamente o sistema, vemos que para o bloco, não afundar e nem sair flutuando, Fr=0. Assim sabendo que: <br>
+N+F=P. --> N=P-F <br>
+N=50Kg - 50N <br>
+N=0. <br>
+Alternativa correta: E.
+</p>";
+     }
+
+}
 ?>
 <style>
 body{
