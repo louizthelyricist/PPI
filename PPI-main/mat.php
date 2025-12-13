@@ -120,14 +120,24 @@ O que nos leva a marcar a alternativa correta: D.
 <style>
 body{
     font-size: 28px;
-    background-color: #b6cbe7ff;
+    	background-color: #8f9aa5;
+}
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
+.h
+{
+	font-family: 'Sekuya', sans-serif;
+	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+	background-size: 10px;
+	border-radius: 200px;
 }
 @import url('https://fonts.google.com/specimen/Vend+Sans?categoryFilters=Feeling:%2FExpressive%2FCalm');
     legend 
 {
     font-family: Vend-Sans;
     font-size: 50px;
-    background-color: rgb(182, 148, 214, 0.6);
+background-color: rgba(93, 146, 221, 0.6);
     border-radius: 15px;
     font-weight: bold;
 }
@@ -144,10 +154,10 @@ fieldset{
 }
 input[type="submit"]
 {
-background-color: rgba(37, 185, 24, 0.479);
-  color: rgb(0, 0, 0);              
+background-color: rgb(9, 57, 189);
+  color: rgb(255, 255, 255);                   
   border: none;              
-  padding: 20px 450px;        
+  padding: 20px 350px;        
   border-radius: 20px;        
   cursor:pointer ;           
   font-family: Vend-Sans;
@@ -158,7 +168,7 @@ background-color: rgba(37, 185, 24, 0.479);
 }
 input[type="submit"]:hover
 {
-	 background-color:  rgb(194, 210, 175, 0.6); 
+	 background-color:  rgba(8, 61, 209, 0.623);
 	 transform: scale(1.05);
 }
 h1
@@ -180,7 +190,11 @@ h1
     border-radius: 15px;
 	font-weight: bold;
 }
-</style> 
+.central
+{
+    text-align: center;
+}
+</style>  
 <input type="submit" value="Rebobinar">
 </fieldset>
 </form>
