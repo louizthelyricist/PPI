@@ -19,16 +19,11 @@ $q4= $_GET ["q4"];
         <p>Um bloco de massa de 10Kg (A) está em um plano inclinado a 30°, pendurado em uma roldana por um bloco de massa de 15Kg (B). Adote a gravidade= 10m/s².</p>
         <p class="central"> <img src="f1.png" alt="imagem central" class="tam"></p>
         <p> Considerando que o sistema está em movimento retilíneo, descubra o coeficiente de atrito de A.</p>
-                <label> <input type="radio" name="a2" value="0" required> A) μ≈0.20<br></label>
-                <label> <input type="radio" name="a2" value="1"> B) μ≈1,2<br></label>
-                <label> <input type="radio" name="a2" value="0"> C) μ≈0.50<br></label>
-                <label> <input type="radio" name="a2" value="0"> D) μ≈0.86<br></label>
-                <label> <input type="radio" name="a2" value="0"> E) μ≈1.80 </label>
-
-        <input type="hidden" name="q1" value="<?php echo $_GET['q1']; ?>">
-        <input type="hidden" name="q2" value="<?php echo $_GET['q2']; ?>">
-        <input type="hidden" name="q3" value="<?php echo $_GET['q3']; ?>">
-        <input type="hidden" name="q4" value="<?php echo $_GET['q4']; ?>">
+                <label> <input type="radio" name="f1" value="0" required> A) μ≈0.20<br></label>
+                <label> <input type="radio" name="f1" value="1"> B) μ≈1,2<br></label>
+                <label> <input type="radio" name="f1" value="0"> C) μ≈0.50<br></label>
+                <label> <input type="radio" name="f1" value="0"> D) μ≈0.86<br></label>
+                <label> <input type="radio" name="f1" value="0"> E) μ≈1.80 </label>
 </fieldset>
 <fieldset>
     <legend> Questão 2 </legend>
@@ -37,11 +32,11 @@ $q4= $_GET ["q4"];
     <p> Sabendo que o trabalho realizado sobre o corpo é de 800J, descubra sua distância em metros
 (despreze a parte fracionária)</P>
 
-                <label> <input type="radio" name="a2" value="0" required> A) 15m<br></label>
-                <label> <input type="radio" name="a2" value="0"> B) 28m<br></label>
-                <label> <input type="radio" name="a2" value="0"> C) 10m<br></label>
-                <label> <input type="radio" name="a2" value="1"> D) 22m<br></label>
-                <label> <input type="radio" name="a2" value="0"> E) 35m </label>
+                <label> <input type="radio" name="f2" value="0" required> A) 15m<br></label>
+                <label> <input type="radio" name="f2" value="0"> B) 28m<br></label>
+                <label> <input type="radio" name="f2" value="0"> C) 10m<br></label>
+                <label> <input type="radio" name="f2" value="1"> D) 22m<br></label>
+                <label> <input type="radio" name="f2" value="0"> E) 35m </label>
 </fieldset>
 <fieldset>
     <legend> Questão 3</legend>
@@ -49,13 +44,36 @@ $q4= $_GET ["q4"];
     <p class="central"> <img src="f3.png" alt="imagem central" class="tam"></p>
     <p> Sabendo dessas informações, responda respectivamente:
 Qual a energia mínima necessária da mola para que a bolinha consiga subir a rampa? E qual a deformação mínima para que isso aconteça? (despreze o atrito)</p>
-                <label> <input type="radio" name="a2" value="0" required>A) 300J. 20Kg<br></label>
-                <label> <input type="radio" name="a2" value="1"> B) 250J. 5m<br></label>
-                <label> <input type="radio" name="a2" value="0"> C) 25.10¹J. 25N/m<br></label>
-                <label> <input type="radio" name="a2" value="0"> D) 100J. 10m<br></label>
-                <label> <input type="radio" name="a2" value="0"> E) 500J. 2m </label>
+                <label> <input type="radio" name="f3" value="0" required>A) 300J. 20Kg<br></label>
+                <label> <input type="radio" name="f3" value="1"> B) 250J. 5m<br></label>
+                <label> <input type="radio" name="f3" value="0"> C) 25.10¹J. 25N/m<br></label>
+                <label> <input type="radio" name="f3" value="0"> D) 100J. 10m<br></label>
+                <label> <input type="radio" name="f3" value="0"> E) 500J. 2m </label>
+        
+</fieldset>
+<fieldset>
+    <legend> Questão 4</legend>
+    <p> Uma lâmpada está sendo sustentada por duas cordas. Uma delas (T1) está relacionada ao eixo X, já a outra (T2), está em um ângulo θ ao X. Qual é o valor de T2?</p>
+    <p class="central"> <img src="f4.png" alt="imagem central" class="tam"></p>
+            <label> <input type="radio" name="f4" value="0" required> A) T2=T1⋅senθ<br></label>
+            <label> <input type="radio" name="f4" value="1"> B) T2= m.g/senθ <br></label>
+            <label> <input type="radio" name="f4" value="0"> C) T2=T1⋅cosθ<br></label>
+            <label> <input type="radio" name="f4" value="0"> D) T2=P⋅cosθ<br></label>
+            <label> <input type="radio" name="f4" value="0"> E) T2=P/cosθ</label>
 
 </fieldset>
+<fieldset>
+    <legend> Questão 5</legend>
+    <p> Um bloco na vertical está sendo puxado por uma força F( para cima). O corpo possui uma massa de 5Kg. </p>
+    <p class="central"> <img src="f5.png" alt="imagem central" class="tam"></p>
+    <p>  Adote g=10m/s². Sabendo que F=50N. Responda respectivamente:
+ Possui N? Se tiver, qual o valor?</p>
+            <label> <input type="radio" name="f5" value="0" required> A) Não possui N.<br></label>
+            <label> <input type="radio" name="f5" value="0"> B) Possui, e seu valor é -30. <br></label>
+            <label> <input type="radio" name="f5" value="0"> C) Possui, e seu valor é 0 pois utilizamos a primeira lei de Newton.<br></label>
+            <label> <input type="radio" name="f5" value="0"> D) Utilizando a lei de Hooke, descobrimos que sim, e seu valor é 30J.<br></label>
+            <label> <input type="radio" name="f5" value="1"> E) Possui, e utilizando a terceira lei de Newton, descobrimos que N=0. </label>
+ 
 <style>
 body{
     font-size: 28px;
@@ -134,28 +152,14 @@ h1
     text-align: center;
 }
 </style> 
-<fieldset>
-    <legend> Questão 4</legend>
-    <p> Uma lâmpada está sendo sustentada por duas cordas. Uma delas (T1) está relacionada ao eixo X, já a outra (T2), está em um ângulo θ ao X. Qual é o valor de T2?</p>
-    <p class="central"> <img src="f4.png" alt="imagem central" class="tam"></p>
-            <label> <input type="radio" name="a2" value="0" required> A) T2=T1⋅senθ<br></label>
-            <label> <input type="radio" name="a2" value="1"> B) T2= m.g/senθ <br></label>
-            <label> <input type="radio" name="a2" value="0"> C) T2=T1⋅cosθ<br></label>
-            <label> <input type="radio" name="a2" value="0"> D) T2=P⋅cosθ<br></label>
-            <label> <input type="radio" name="a2" value="0"> E) T2=P/cosθ</label>
+        <input type="hidden" name="q1" value="<?php echo $_GET['q1']; ?>">
+        <input type="hidden" name="q2" value="<?php echo $_GET['q2']; ?>">
+        <input type="hidden" name="q3" value="<?php echo $_GET['q3']; ?>">
+        <input type="hidden" name="q4" value="<?php echo $_GET['q4']; ?>">
+        <input type="submit" value="Enviar">
+
 
 </fieldset>
-<fieldset>
-    <legend> Questão 5</legend>
-    <p> Um bloco na vertical está sendo puxado por uma força F( para cima). O corpo possui uma massa de 5Kg. </p>
-    <p class="central"> <img src="f5.png" alt="imagem central" class="tam"></p>
-    <p>  Adote g=10m/s². Sabendo que F=50N. Responda respectivamente:
- Possui N? Se tiver, qual o valor?</p>
-            <label> <input type="radio" name="a2" value="0" required> A) Não possui N.<br></label>
-            <label> <input type="radio" name="a2" value="0"> B) Possui, e seu valor é -30. <br></label>
-            <label> <input type="radio" name="a2" value="0"> C) Possui, e seu valor é 0 pois utilizamos a primeira lei de Newton.<br></label>
-            <label> <input type="radio" name="a2" value="0"> D) Utilizando a lei de Hooke, descobrimos que sim, e seu valor é 30J.<br></label>
-            <label> <input type="radio" name="a2" value="1"> E) Possui, e utilizando a terceira lei de Newton, descobrimos que N=0. </label>
-<input type="submit" value="Enviar">
-</fieldset>
+</form>
 </body>
+</html>
